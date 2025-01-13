@@ -86,3 +86,14 @@ If you’re storing your new site in version control, you’ll want to ignore th
   git commit -m "Create new Jekyll Project"
   git push origin 00.newJekyllProject
   ```
+## Merge to existing branch
+* 
+  ```
+  git stash
+  git checkout gh-pages
+  git stash apply
+  git merge 00.newJekyllProject
+  git add .
+  git commit -m "Merge 00.newJekyllProject to gh-pages"
+  git push origin gh-pages
+  ```
