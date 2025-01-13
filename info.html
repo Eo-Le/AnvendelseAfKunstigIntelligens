@@ -7,7 +7,7 @@ title: Sitemap
 <ul>
   {% for page in site.pages %}
     <li>
-      <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+      <a href="{{ page.baseurl }}">{{ page.title | default: page.url }}</a>
     </li>
   {% endfor %}
 </ul>
