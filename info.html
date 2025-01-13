@@ -1,0 +1,120 @@
+---
+title: Sitemap
+---
+
+<h1><u>All Pages</u></h1>
+<p>Number of pages: {{ site.pages | size }}</p>
+<ul>
+  {% for page in site.pages %}
+    <li>
+      <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<div class="mb-5"></div>
+
+
+<h1><u>All Collections</u></h1>
+<p>Number of collections: {{ site.collections | size }}</p>
+<ul>
+    {% for collection in site.collections %}
+        <li>
+            <h2>Collection {{forloop.index}}: {{ collection.label }}</h2>
+            {% assign folder_structure = "" %}
+            {% for file in collection.docs %}
+                {% assign folder_path = file.path | remove: file.name %} <!-- retrive the folder_path without the file name  -->
+                {% unless folder_structure contains folder_path %}
+                    {% assign folder_structure = folder_structure | append: folder_path | append: ',' %} <!-- append only folder_path if new  -->
+                {% endunless %}
+            {% endfor %}
+        </li>
+        {% assign folder_structure = folder_structure | split: ',' %} <!-- convert to array of folder paths  -->
+
+        {% assign numberOfDocs = collection.docs | size %}
+        {% if numberOfDocs == 0 %}
+            <ul>
+                <li>
+                    Nothing
+                </li>
+            </ul>
+        {% else %}
+            {% for folder in folder_structure %}
+                {% if folder != "" %}
+                    <h5>Path {{forloop.index}}: {{ folder }}</h5>
+                    {% for file in collection.docs %}
+                        {% assign file_folder = file.path | remove: file.name %}
+                        {% if file_folder == folder %}
+                            <ul>
+                                <li>
+                                    {{forloop.index}}: <a href="{{ file.url }}">{{ file.title | default: file.name }}</a>
+                                </li>
+                            </ul>
+                        {% endif %}    
+                    {% endfor %}
+                    <br>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
+<div class="mb-5"></div>
+
+
+<h1><u>All Data</u></h1>
+<p>Number of data: {{ site.data | size }}</p>
+<ul>
+  {% for data in site.data %}
+    <li>
+      {{ forloop.index }}: {{data[0]}}
+    </li>
+  {% endfor %}
+</ul>
+<div class="mb-5"></div>
+
+
+<h1><u>Static Files by Type</u></h1>
+{% assign files_by_type = site.static_files | group_by: "extname" %}
+{% for group in files_by_type %}
+  <h2>Files with Extension: {{ group.name }}</h2>
+  <ul>
+    {% for file in group.items %}
+      <li>{{ file.path }}</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+<div class="mb-5"></div>
+
+
+<h1><u>Plugin Files</h1></u>
+<ul>
+  {% for file in site.plugin_files %}
+    <li>
+      {{ forloop.index }}: {{ file.name }}
+    </li>
+  {% endfor %}
+</ul>
+<div class="mb-5"></div>
+
+<h1><u>All Keys</u></h1>
+<p>Number of keys: {{ keys | size }}</p>
+<ul>
+  {% for key in keys %}
+    <li>
+      {{ forloop.index }}: {{key}}
+    </li>
+  {% endfor %}
+</ul>
+<div class="mb-5"></div>
+
+
+<h1><u>All keys in site</u></h1>
+{% assign siteKeys = site | keys %}</p>
+<ul>
+  {% for key in siteKeys %}
+    <li>
+      {{ forloop.index }}: {{key}}
+    </li>
+  {% endfor %}
+</ul>
+<div class="mb-5"></div>
+
