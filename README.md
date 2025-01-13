@@ -83,4 +83,6 @@ If you’re storing your new site in version control, you’ll want to ignore th
   ```
   git checkout -b 00.newJekyllProject
   git add .
+  git commit -m "Create new Jekyll Project"
+  git push origin 00.newJekyllProject
   ```
