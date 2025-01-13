@@ -97,3 +97,7 @@ If you’re storing your new site in version control, you’ll want to ignore th
   git commit -m "Merge 00.newJekyllProject to gh-pages"
   git push origin gh-pages
   ```
+## Fix referencing error
+* ```
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  ```

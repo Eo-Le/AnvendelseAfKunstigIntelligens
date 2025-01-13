@@ -97,3 +97,35 @@ If you’re storing your new site in version control, you’ll want to ignore th
   git commit -m "Merge 00.newJekyllProject to gh-pages"
   git push origin gh-pages
   ```
+## Fix referencing error
+* In _config.yml set up url and baseurl
+  ```
+  baseurl: "/AnvendelseAfKunstigIntelligens"
+  url: "https://eo-le.github.io"
+  ```
+* In gh actions add jekyll_args for baseurl
+  ```
+  - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+          jekyll_args: --baseurl "/AnvendelseAfKunstigIntelligens"
+  ```
+In info.html add site.baseurl in front of page.url
+* ```
+  <h1><u>All Pages</u></h1>
+  <p>Number of pages: {{ site.pages | size }}</p>
+  <ul>
+    {% for page in site.pages %}
+        <li>
+        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title | default: page.url }}</a>
+        </li>
+    {% endfor %}
+  </ul>
+  <div class="mb-5"></div>
+  ```
+In codespace running jekyll serve with baseurl
+* ```
+  bundle exec jekyll serve --baseurl="/AnvendelseAfKunstigIntelligens"
+  ```
