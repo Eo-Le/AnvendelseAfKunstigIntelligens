@@ -24,6 +24,21 @@
         "Hvis instruktionerne kommer i forkert rækkefølge,",
         "bliver opskriften også umulig at følge."
       ]
+    },
+    {
+      "Question": "4. Hvad er Minimax",
+      "Answer": [
+        "Minimax er en algoritme udviklet af John von Neuman i 1926.",
+        "Algoritmen handler om at arbejde sig fremad fra det seneste træk",
+        "og vælge den bedst mulige position,",
+        "som svar på hver af modstanderens mulige positioner,",
+        "altså maksimum.",
+        "På næste niveau antager den, at modstanderen vil vælge",
+        "den dårligst mulige position for en selv,",
+        "altså minimum.",
+        "Denne udveksling mellem maksimum og minimum",
+        "har givet navn til algoritmen: Minimax."
+      ]
     }
   ]
   
