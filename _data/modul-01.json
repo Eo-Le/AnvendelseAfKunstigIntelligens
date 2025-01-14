@@ -1,0 +1,29 @@
+[
+    {
+      "Question": "1. Hvad er kunstig intelligens?",
+      "Answer": [
+        "Kunstig intelligens (KI) er teknologi,", 
+        "der simulerer menneskelig intelligens,",
+        "som at lære, ræsonnere og løse problemer,",
+        "ved hjælp af computere og algoritmer."
+      ]
+    },
+    {
+      "Question": "2. Hvad er algoritme?",
+      "Answer": [
+        "Algoritme er en samling instruktioner,",
+        "som kan udføres i en bestemt sekvens for at opnå et bestemt mål."
+      ]
+    },
+    {
+      "Question": "3. Giv et eksempel på en algoritme",
+      "Answer": [
+        "Det klassiske eksempel er en madopskrift.",
+        "Hvis opskriften ikke indeholder alle de nødvendige instruktioner,",
+        "kommer der ikke en velsmagende ret ud af det.",
+        "Hvis instruktionerne kommer i forkert rækkefølge,",
+        "bliver opskriften også umulig at følge."
+      ]
+    }
+  ]
+  
