@@ -57,6 +57,12 @@
       "Answer": [
         "Stockfish er en skakcomputer og anvender tre algoritmer som hjørnesten - Minimax, quiescence-søgning og alpha-beta-pruning."
       ]
+    },
+    {
+      "Question": "8. Hvad er Deep Thought",
+      "Answer": [
+        "Deep Thought er et skakspil udviklet af IBM. Deep Thought er videreudviklet fra ChipTest, som er udviklet af Feng-hsiungHsu."
+      ]
     }
   ]
   
