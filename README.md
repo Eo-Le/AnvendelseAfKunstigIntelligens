@@ -129,3 +129,11 @@ In codespace running jekyll serve with baseurl
 * ```
   bundle exec jekyll serve --baseurl="/AnvendelseAfKunstigIntelligens"
   ```
+## Stop tracking a directory in Git and add it to .gitignore
+* In _config.yml set up url and baseurl
+  ```
+  git rm -r --cached <directory_name>
+  # make the change in .gitignore
+  git add .gitignore
+  git commit -m "Stop tracking <directory_name>"
+  ```
