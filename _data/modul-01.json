@@ -45,6 +45,12 @@
       "Answer": [
         "Quiescence-søgning er en algortime, og den indebærer, at maskinen først stopper sin søgning, når den når en stabil position, hvor alvorlige ting som ”bonde slår dronning” ikke kan ske."
       ]
+    },
+    {
+      "Question": "6. Hvad er alpha-beta-pruning",
+      "Answer": [
+        "Alpha-beta-pruning er en algoritme. ”Pruning” betyder beskæring, og hensigten er simpelthen rent virtuelt at skære de uinteressante grene af træet – præcis som man skærer de dårlige grene af et frugttræ."
+      ]
     }
   ]
   
