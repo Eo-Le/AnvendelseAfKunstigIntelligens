@@ -51,6 +51,12 @@
       "Answer": [
         "Alpha-beta-pruning er en algoritme. ”Pruning” betyder beskæring, og hensigten er simpelthen rent virtuelt at skære de uinteressante grene af træet – præcis som man skærer de dårlige grene af et frugttræ."
       ]
+    },
+    {
+      "Question": "7. Hvad er Stockfish",
+      "Answer": [
+        "Stockfish er en skakcomputer og anvender tre algoritmer som hjørnesten - Minimax, quiescence-søgning og alpha-beta-pruning."
+      ]
     }
   ]
   
