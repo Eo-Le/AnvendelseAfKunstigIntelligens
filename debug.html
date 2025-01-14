@@ -1,5 +1,7 @@
 ---
-title: Sitemap
+layout: page
+title: Debug
+permalink: /debug/
 ---
 
 <h1><u>All Pages</u></h1>
@@ -46,7 +48,7 @@ title: Sitemap
                         {% if file_folder == folder %}
                             <ul>
                                 <li>
-                                    {{forloop.index}}: <a href="{{ file.url }}">{{ file.title | default: file.name }}</a>
+                                    {{forloop.index}}: <a href="{{ site.baseurl }}{{ file.url }}">{{ file.title | default: file.name }}</a>
                                 </li>
                             </ul>
                         {% endif %}    

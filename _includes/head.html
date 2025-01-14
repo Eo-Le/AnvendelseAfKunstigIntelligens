@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- add the 'last-update' meta tag to expose the current build timestamp.  -->
+    <!-- the 'last-update' key and value is used in the assets/js/updateSiteOnDeployment.js to store on local machine -->
+    <meta name="last-update" content="{{ site.time | date: '%d-%m-%Y %H:%M:%S' }}">
+
+
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}?v={{ site.time | date: '%d%m%Y%H%M%S' }}">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+
+    <!-- incl. script for updating the site on deployment -->
+    {%- include scripts.html -%}
+  </head>
+  

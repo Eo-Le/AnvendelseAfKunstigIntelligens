@@ -1,3 +1,4 @@
+# just a comment to make the site rebuild and including new posts.00
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -17,6 +18,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+lang: da-DK
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: Europe/Copenhagen
+
+# Ensure that posts will be displayed disreading the time zone Jekyll use
+future: true
+
+
 
 title: Anvendelse af kunstig intelligens
 email: #
