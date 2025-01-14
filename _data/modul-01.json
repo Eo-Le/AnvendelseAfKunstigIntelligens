@@ -39,6 +39,12 @@
         "Denne udveksling mellem maksimum og minimum",
         "har givet navn til algoritmen: Minimax."
       ]
+    },
+    {
+      "Question": "5. Hvad er quiescence-søgning",
+      "Answer": [
+        "Quiescence-søgning er en algortime, og den indebærer, at maskinen først stopper sin søgning, når den når en stabil position, hvor alvorlige ting som ”bonde slår dronning” ikke kan ske."
+      ]
     }
   ]
   
