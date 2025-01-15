@@ -94,6 +94,12 @@
       "Answer": [ 
         "AlphaZero er en skakcomputer som har lært sig selv skak ved at spille mod sig selv - i alt 44 millioner partier - i løbet af 24 timer. Stockfish og andre traditionelle skakcomputere laver i dag millioner af søgninger, mens AlphaZero takket være den skakintuition, den har lært sig, kan ”nøjes” med at lave under 100.000 søgninger per stilling."
       ]
+    },
+    {
+      "Question": "17. Hvornår blev AlphaZero introduceret?",
+      "Answer": [ 
+        "Den 5. december 2017 blev verden introduceret for AlphaZero. Det er en skakcomputer af den mest moderne slags, skabt af et af de ledende miljøer inden for forskning i kunstig intelligens, nemlig firmaet DeepMind (som blev opkøbt af Google i 2014)."
+      ]
     }
   ]
   
