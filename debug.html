@@ -99,8 +99,9 @@ permalink: /debug/
 
 <h1><u>All Keys</u></h1>
 <p>Number of keys: {{ keys | size }}</p>
+{% assign keysSorted = keys | sort  %}
 <ul>
-  {% for key in keys %}
+  {% for key in keysSorted %}
     <li>
       {{ forloop.index }}: {{key}}
     </li>
@@ -110,13 +111,15 @@ permalink: /debug/
 
 
 <h1><u>All keys in site</u></h1>
-{% assign siteKeys = site | keys %}</p>
+{% assign siteKeys = site | keys %}
+{% assign siteKeysSorted = siteKeys | sort %}
 <ul>
-  {% for key in siteKeys %}
+  {% for key in siteKeysSorted %}
     <li>
-      {{ forloop.index }}: {{key}}
+      {{ forloop.index }}: {{ key[0] }}
     </li>
   {% endfor %}
 </ul>
 <div class="mb-5"></div>
+
 
