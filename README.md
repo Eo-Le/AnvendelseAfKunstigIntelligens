@@ -1,5 +1,7 @@
 # AnvendelseAfKunstigIntelligens
-SmartLearning faget Anvendelse af Kunstig Intelligens
+SmartLearning faget Anvendelse af Kunstig Intelligens  
+  
+[Publiceret på gh-pages](https://eo-le.github.io/AnvendelseAfKunstigIntelligens/)  
 
 ## Check codespace info
 * Check Operating System Details `lsb_release -a` or for more details `cat /etc/os-release`
