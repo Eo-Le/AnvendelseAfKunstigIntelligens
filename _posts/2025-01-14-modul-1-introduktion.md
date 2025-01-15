@@ -18,8 +18,9 @@ I alt {{ site.data.modul-01 | size }} spørgsmål.
 
 <!-- Inject JSON data into a JavaScript variable -->
 <script>
-  var questionData = {{ site.data["modul-01"] | jsonify }};
+  var QA-Data-modul-01 = {{ site.data["modul-01"] | jsonify }};
+  var QA-Data-modul-01-5-gode-prompt-tips = {{ site.data["modul-01-5-gode-prompt-tips"] | jsonify }};
 </script>
 
 <!-- Include the script to handle the interactive functionality -->
-<!-- <script src="{{ '/assets/js/all.js' | relative_url }}"></script> -->
+<!-- the script is implemented in _includes/head.html -->
