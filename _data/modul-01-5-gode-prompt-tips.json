@@ -1,0 +1,33 @@
+[
+    {
+      "Question": "1. Forklar mig noget",
+      "Answer": [
+        "Forklar emnet så et barn kan forstå det."
+      ]
+    },
+    {
+      "Question": "2. Hjælp mig i gang",
+      "Answer": [
+        "Jeg skal løse denne opgave. Hvor skal jeg starte?"
+      ]
+    },
+    {
+      "Question": "3. Test mig",
+      "Answer": [
+        "Test min forståelse af denne artkel ved at stille mig 5 spørgsmål."
+      ]
+    },
+    {
+      "Question": "4. Hvad har jeg overset",
+      "Answer": [
+        "Jeg har lavet dennne løsning på opgaven. Er der noget jeg har overset?"
+      ]
+    },
+    {
+      "Question": "5. Den virkelige verden",
+      "Answer": [
+        "Giv mig et eksempel på, hvordan teorien bruges i den virkelige verden."
+      ]
+    }
+  ]
+  
