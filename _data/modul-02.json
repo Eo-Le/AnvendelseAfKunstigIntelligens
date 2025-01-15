@@ -1,0 +1,35 @@
+[
+    {
+      "Question": "1. Hvad er maskinlæring?",
+      "Answer": [
+        "Maskinlæring er algoritmer i et program som forsøger at tilegne sig menneskelig intelligens ved at skrive sin egen algortime for at opnå et bestemt mål."
+      ]
+    },
+    {
+      "Question": "2. Nævn tre maskinlæringsalgoritmer",
+      "Answer": [
+        "1. Supervised learning (superviseret læring)",
+        "2. Unsupervised learning (usuperviseret læring)",
+        "3. Reinforcement learning (forstærkende læring)"
+      ]
+    },
+    {
+      "Question": "3. Hvad er supervised learning",
+      "Answer": [
+        "Superviseret læring indebærer at fodre maskinen med label data (mærkede data / kendte data). Maskinen udvikler sin algoritme for at opnå samme resultat som de mærkede data."
+      ]
+    },
+    {
+      "Question": "4. Hvad er unsupervised learning",
+      "Answer": [
+        "Usuperviseret læring indebærer at fodre maskinen med non-label data (ikke mærkede data / ukendte data). Maskinen udvikler sin algoritme ved trial and error, genkende mønster, indeling i klaser, kalkulerer loss, beskæring af dårlige veje. Usuperviseret læring kan danne grundlag for supervisering læring."
+      ]
+    },
+    {
+      "Question": "5. Hvad er reinforcement learning",
+      "Answer": [
+        "Forstærkende læring indebærer at belønne maskinen for at gøre noget godt og afstraffe den for at gøre noget dårlig."
+      ]
+    }
+  ]
+  
