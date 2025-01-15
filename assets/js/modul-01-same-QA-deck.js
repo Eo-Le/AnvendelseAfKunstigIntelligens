@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("loaded: assets/js/modul-01-same-QA-deck.js");
 
-    // Check if questionData is available globally
-    if (typeof questionData === "undefined" || !Array.isArray(questionData) || questionData.length === 0) {
-        console.warn("questionData is not available or empty. The script will not run.");
-        return; // Exit early if questionData is not available or is empty
+    // Check if QA-Data-modul-01 is available globally
+    if (typeof QA-Data-modul-01 === "undefined" || !Array.isArray(QA-Data-modul-01) || QA-Data-modul-01.length === 0) {
+        console.warn("QA-Data-modul-01 is not available or empty. The script will not run.");
+        return; // Exit early if QA-Data-modul-01 is not available or is empty
       }
     
-      // Your existing code logic that operates on questionData
-      console.log("questionData is available. Proceeding with script...");
+      // Your existing code logic that operates on QA-Data-modul-01
+      console.log("QA-Data-modul-01 is available. Proceeding with script...");
 
-    const data = questionData; // Use the injected data directly
+    const data = QA-Data-modul-01; // Use the injected data directly
   
     // Shuffle the questions (not the answers)
     function shuffleQuestions(array) {
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentQuestionIndex = 0;
   
     // Function to create the question card
-    function createCard(questionData) {
+    function createCard(QA-Data-modul-01) {
       // Create the card element
       const card = document.createElement("div");
       card.classList.add("question-card");
@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
       // Set the question HTML structure
       card.innerHTML = `
         <div class="question">
-          <h3>${questionData.Question}</h3>
+          <h3>${QA-Data-modul-01.Question}</h3>
         </div>
         <div class="answer" style="display: none;">
-          <p>${questionData.Answer.join("<br>")}</p>
+          <p>${QA-Data-modul-01.Answer.join("<br>")}</p>
         </div>
       `;
   
