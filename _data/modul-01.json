@@ -2,72 +2,67 @@
     {
       "Question": "1. Hvad er kunstig intelligens?",
       "Answer": [
-        "Kunstig intelligens (KI) er teknologi,", 
-        "der simulerer menneskelig intelligens,",
-        "som at lære, ræsonnere og løse problemer,",
-        "ved hjælp af computere og algoritmer."
+        "Kunstig intelligens (KI) er teknologi, der simulerer menneskelig intelligens, som at lære, ræsonnere og løse problemer, ved hjælp af computere og algoritmer."
       ]
     },
     {
       "Question": "2. Hvad er algoritme?",
       "Answer": [
-        "Algoritme er en samling instruktioner,",
-        "som kan udføres i en bestemt sekvens for at opnå et bestemt mål."
+        "Algoritme er en samling instruktioner, som kan udføres i en bestemt sekvens for at opnå et bestemt mål."
       ]
     },
     {
       "Question": "3. Giv et eksempel på en algoritme",
       "Answer": [
-        "Det klassiske eksempel er en madopskrift.",
-        "Hvis opskriften ikke indeholder alle de nødvendige instruktioner,",
-        "kommer der ikke en velsmagende ret ud af det.",
-        "Hvis instruktionerne kommer i forkert rækkefølge,",
-        "bliver opskriften også umulig at følge."
+        "Det klassiske eksempel er en madopskrift. Hvis opskriften ikke indeholder alle de nødvendige instruktioner, kommer der ikke en velsmagende ret ud af det. Hvis instruktionerne kommer i forkert rækkefølge, bliver opskriften også umulig at følge."
       ]
     },
     {
-      "Question": "4. Hvad er Minimax",
+      "Question": "4. Hvad er Minimax?",
       "Answer": [
-        "Minimax er en algoritme udviklet af John von Neuman i 1926.",
-        "Algoritmen handler om at arbejde sig fremad fra det seneste træk",
-        "og vælge den bedst mulige position,",
-        "som svar på hver af modstanderens mulige positioner,",
-        "altså maksimum.",
-        "På næste niveau antager den, at modstanderen vil vælge",
-        "den dårligst mulige position for en selv,",
-        "altså minimum.",
-        "Denne udveksling mellem maksimum og minimum",
-        "har givet navn til algoritmen: Minimax."
+        "Minimax er en algoritme udviklet af John von Neuman i 1926. Algoritmen handler om at arbejde sig fremad fra det seneste træk og vælge den bedst mulige position, som svar på hver af modstanderens mulige positioner, altså maksimum. På næste niveau antager den, at modstanderen vil vælge den dårligst mulige position for en selv, altså minimum. Denne udveksling mellem maksimum og minimum har givet navn til algoritmen: Minimax."
       ]
     },
     {
-      "Question": "5. Hvad er quiescence-søgning",
+      "Question": "5. Hvad er quiescence-søgning?",
       "Answer": [
         "Quiescence-søgning er en algortime, og den indebærer, at maskinen først stopper sin søgning, når den når en stabil position, hvor alvorlige ting som ”bonde slår dronning” ikke kan ske."
       ]
     },
     {
-      "Question": "6. Hvad er alpha-beta-pruning",
+      "Question": "6. Hvad er alpha-beta-pruning?",
       "Answer": [
         "Alpha-beta-pruning er en algoritme. ”Pruning” betyder beskæring, og hensigten er simpelthen rent virtuelt at skære de uinteressante grene af træet – præcis som man skærer de dårlige grene af et frugttræ."
       ]
     },
     {
-      "Question": "7. Hvad er Stockfish",
+      "Question": "7. Hvad er Stockfish?",
       "Answer": [
         "Stockfish er en skakcomputer og anvender tre algoritmer som hjørnesten - Minimax, quiescence-søgning og alpha-beta-pruning."
       ]
     },
     {
-      "Question": "8. Hvad er Deep Thought",
+      "Question": "8. Hvad er Deep Thought?",
       "Answer": [
         "Deep Thought er et skakspil udviklet af IBM. Deep Thought er videreudviklet fra ChipTest, som er udviklet af Feng-hsiungHsu."
       ]
     },
     {
-      "Question": "9. Hvad er Deep Blue",
+      "Question": "9. Hvad er Deep Blue?",
       "Answer": [
         "Deep Blue er den første skakcomputer, som besejrede den regerende verdensmester i skak Garri Kasparov. Den første uofficiel sejr fandt sted den 10. februar 1996 besejrede. Den officielle sejr med officielle regler for skakturneringer fandt sted den 11. maj 1997."
+      ]
+    },
+    {
+      "Question": "10. Hvad er 'von Neumann-arkitektur'?",
+      "Answer": [
+        "von Neumann-arkitektur blev designet af John von Neumann. Arkitekturen bliver stadig anvendt til at konstruere moderne computere efter. I denne opbygning, eller arkitektur, har computere én central komponent, som udfører beregninger, og en anden komponent, som står for at gemme data. Når beregninger skal udføres, skal de nødvendige ingredienser derfor hentes fra hukommelsesenheden, og hvis resultatet af en beregning skal gemmes, skal det flyttes fra beregningsenheden og ind i hukommelsen. Den første von Neumann-maskine stod færdig i 1952"
+      ]
+    },
+    {
+      "Question": "11. Hvem er Grace Hopper?",
+      "Answer": [
+        "Grace Hopper var en matematiker som opfandt det første program, som gør det muligt for computere at oversætte ord, helt konkret engelske ord, til maskinsprog. Før den tid måtte man programmere computere direkte med nuller og ettaller, 0 og 1. At skrive nuller og ettaller er ikke nogen særligt morsom opgave for os mennesker, som er vant til at formulere os ved hjælp af ord. Det, Grace Hopper skabte, var verdens første såkaldte kompilator."
       ]
     }
   ]
