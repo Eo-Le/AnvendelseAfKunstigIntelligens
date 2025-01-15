@@ -76,6 +76,24 @@
       "Answer": [
         "Kunstig intelligens har som formål at skabe maskiner, der efterligner menneskelig adfærd og intelligens. De fire pionerer John McCarthy, Marvin Minsky, Herbert Simon og Allen Newell skrev, at kunstig intelligens omfatter bl.a. logisk tænkning, maskinlæring, neurale netværk, kreativitet og sprogforståelse"
       ]
+    },
+    {
+      "Question": "14. Hvor mange fremtidige træk kan ChipTest gennemsøge i sekundet?",
+      "Answer": [
+        "ChipTest kunne gennemsøge 500.000 fremtidige træk i sekundet."
+      ]
+    },
+    {
+      "Question": "15. Hvor mange positioner kan Deep Blue gennemsøge i sekundet?",
+      "Answer": [
+        "Deep Blue kunne gennemsøge 200 millioner positioner i sekundet."
+      ]
+    },
+    {
+      "Question": "16. Hvad er AlphaZero?",
+      "Answer": [ 
+        "AlphaZero er en skakcomputer som har lært sig selv skak ved at spille mod sig selv - i alt 44 millioner partier - i løbet af 24 timer. Stockfish og andre traditionelle skakcomputere laver i dag millioner af søgninger, mens AlphaZero takket være den skakintuition, den har lært sig, kan ”nøjes” med at lave under 100.000 søgninger per stilling."
+      ]
     }
   ]
   
