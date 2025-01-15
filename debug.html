@@ -80,7 +80,7 @@ permalink: /debug/
   <h2>Files with Extension: {{ group.name }}</h2>
   <ul>
     {% for file in group.items %}
-      <li>{{ file.path }}</li>
+      <li><a href="{{ site.baseurl }}{{ file.path }}">{{ file.path }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
