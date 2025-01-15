@@ -100,6 +100,12 @@
       "Answer": [ 
         "Den 5. december 2017 blev verden introduceret for AlphaZero. Det er en skakcomputer af den mest moderne slags, skabt af et af de ledende miljøer inden for forskning i kunstig intelligens, nemlig firmaet DeepMind (som blev opkøbt af Google i 2014)."
       ]
+    },
+    {
+      "Question": "18. Hvad er Voltaire kendt for?",
+      "Answer": [ 
+        "Voltaire er kendt for sætningen 'Definér dine begreber, ellers vil vi aldrig kunne forstå hinanden.'"
+      ]
     }
   ]
   
