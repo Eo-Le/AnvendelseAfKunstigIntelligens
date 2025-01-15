@@ -15,6 +15,8 @@ I alt {{ site.data.modul-01 | size }} spørgsmål.
 <!-- Tilføj denne knap et sted på din HTML-side -->
 <button id="shuffle-answers" class="shuffle-button">Randomiser spørgsmålene</button>
 
+<div class="mt-5" id="containerFor5GodePromptTips" style="display:none;"></div>
+
 
 <!-- Inject JSON data into a JavaScript variable -->
 <script>
