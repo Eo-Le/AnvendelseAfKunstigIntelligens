@@ -6,8 +6,10 @@ permalink: /debug/
 
 <h1><u>All Pages</u></h1>
 <p>Number of pages: {{ site.pages | size }}</p>
+{% assign sitePages = site.pages %}
+{% assign sitePagesSorted = sitePages | sort: 'title' %}
 <ul>
-  {% for page in site.pages %}
+  {% for page in sitePagesSorted %}
     <li>
       <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title | default: page.url }}</a>
     </li>
