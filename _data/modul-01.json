@@ -50,7 +50,7 @@
     {
       "Question": "9. Hvad er Deep Blue?",
       "Answer": [
-        "Deep Blue er den første skakcomputer, som besejrede den regerende verdensmester i skak Garri Kasparov. Den første uofficiel sejr fandt sted den 10. februar 1996 besejrede. Den officielle sejr med officielle regler for skakturneringer fandt sted den 11. maj 1997."
+        "Deep Blue er den første skakcomputer, som besejrede den regerende verdensmester i skak Garri Kasparov. Den første uofficiele sejr fandt sted den 10. februar 1996 besejrede. Den officielle sejr med officielle regler for skakturneringer fandt sted den 11. maj 1997."
       ]
     },
     {
@@ -63,6 +63,18 @@
       "Question": "11. Hvem er Grace Hopper?",
       "Answer": [
         "Grace Hopper var en matematiker som opfandt det første program, som gør det muligt for computere at oversætte ord, helt konkret engelske ord, til maskinsprog. Før den tid måtte man programmere computere direkte med nuller og ettaller, 0 og 1. At skrive nuller og ettaller er ikke nogen særligt morsom opgave for os mennesker, som er vant til at formulere os ved hjælp af ord. Det, Grace Hopper skabte, var verdens første såkaldte kompilator."
+      ]
+    },
+    {
+      "Question": "12. Hvem opfandt begrevet 'Artificial Intelligence?",
+      "Answer": [
+        "Begrebet artificial intelligence (AI) blev opfundet af John McCarthy hovedsageligt for at adskille området fra det beslægtede felt kybernetik."
+      ]
+    },
+    {
+      "Question": "13. Hvad handler kunstig intelligens om?",
+      "Answer": [
+        "Kunstig intelligens har som formål at skabe maskiner, der efterligner menneskelig adfærd og intelligens. De fire pionerer John McCarthy, Marvin Minsky, Herbert Simon og Allen Newell skrev, at kunstig intelligens omfatter bl.a. logisk tænkning, maskinlæring, neurale netværk, kreativitet og sprogforståelse"
       ]
     }
   ]
