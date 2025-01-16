@@ -2,33 +2,49 @@
     {
       "Question": "1. Hvad er maskinlæring?",
       "Answer": [
-        "Maskinlæring er algoritmer i et program som forsøger at tilegne sig menneskelig intelligens ved at skrive sin egen algortime for at opnå et bestemt mål."
+        "Maskinlæring er algoritmer i et program eller modeller, som forsøger at tilegne sig menneskelig intelligens ved at skrive sin egen algortime for at opnå et bestemt mål."
       ]
     },
     {
       "Question": "2. Nævn tre maskinlæringsalgoritmer",
       "Answer": [
-        "1. Supervised learning (superviseret læring)",
-        "2. Unsupervised learning (usuperviseret læring)",
+        "1. Supervised learning (superviserede læring)",
+        "2. Unsupervised learning (usuperviserede læring)",
         "3. Reinforcement learning (forstærkende læring)"
       ]
     },
     {
       "Question": "3. Hvad er supervised learning",
       "Answer": [
-        "Superviseret læring indebærer at fodre maskinen med label data (mærkede data / kendte data). Maskinen udvikler sin algoritme for at opnå samme resultat som de mærkede data."
+        "Superviserede læring indebærer at fodre maskinen med label data (mærkede data / kendte data).",
+        "Maskinen udvikler sin algoritme og retter sig selv for at opnå samme resultat som de mærkede data.",
+        "Maskinen laver en forudsigelse for at opnå det forventede resultat",
+        "og så er der en loss function, som angiver hvor langt maskinen er fra den korrekte forudsigelse.",
+        "Maskinen optimerer sig selv for at undgå samme fejl og dermed mitigerer loss function løbende.",
+        "Efter at have opnået successfulde resultater begynder algoritmen at genkende nogle mønstre - også kaldt generalisering.",
+        "Algoritmen vil på baggrund sin forudsigelse og generalisering være i stand til at opnå et tilsvarende resultat for data, den ikke har set før."
       ]
     },
     {
       "Question": "4. Hvad er unsupervised learning",
       "Answer": [
-        "Usuperviseret læring indebærer at fodre maskinen med non-label data (ikke mærkede data / ukendte data). Maskinen udvikler sin algoritme ved trial and error, genkende mønster, indeling i klaser, kalkulerer loss, beskæring af dårlige veje. Usuperviseret læring kan danne grundlag for supervisering læring."
+        "Usuperviserede læring indebærer at fodre maskinen med non-label data (ikke mærkede data / ukendte data / rodede data).",
+        "Maskinen er bedre til at genkende mønster end superviserede læring.",
+        "Maskinen udvikler sin algoritme ved at undersøge data, genkende mønster, inddele i kluster (gruppering), ",
+        "dimensioneringsreduktion (forenkling af sammenhængen mellem elementerne), detektere anomali (afsløring af afvigende data).",
+        "Usuperviseret læring kan danne grundlag for superviserede læring ved at skabe mening i noget, som kunne være rodet."
       ]
     },
     {
       "Question": "5. Hvad er reinforcement learning",
       "Answer": [
-        "Forstærkende læring indebærer at belønne maskinen for at gøre noget godt og afstraffe den for at gøre noget dårlig."
+        "Forstærkende læring indebærer at belønne maskinen for at gøre noget godt og straffe den for at gøre noget dårligt.",
+        "Dette minder om adfærdspsykologi for mennesker.",
+        "Modellen har ikke noget datasæt med det rigtige svar, men den er designet til at optimere sig selv via belønning eller straf baseret på dens handlinger.",
+        "Algoritmen stræber efter handlinger, som giver mest belønning og mindst straf som muligt.",
+        "En policy er, når algoritmen forsøger at maksimere sin belønning.",
+        "En exploiration er, når algoritmen forsøger alle mulige handlinger.",
+        "En exploitation er, når algortimen udnytter de handlinger, som udløser de største belønninger."
       ]
     }
   ]
