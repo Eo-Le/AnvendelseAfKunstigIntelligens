@@ -6,8 +6,7 @@ categories: eksamen repetition
 permalink: /modul-1-introduktion/
 ---
 
-<h1><u>Repetition af modul 1: Introduktion.</u></h1>
-<p><i>I alt {{ site.data.modul-01 | size }} spørgsmål.</i></p>
+<h1><u>Repetition af modul 1: Introduktion</u></h1>
 <div id="containerForModul1QA">containerForModul1QA</div>
 <div id="msgContainerForModul1QA" style="display:none;">msgContainerForModul1QA</div>
 
@@ -18,7 +17,6 @@ permalink: /modul-1-introduktion/
 
 
 <h1 class="mt-5"><u>5 gode tips for prompting</u></h1>
-<p><i>I alt {{ site.data.modul-01-5-gode-prompt-tips | size }} tips.</i></p>
 <div id="containerForModul1_5tips_QA">containerForModul1_5tips_QA</div>
 <div id="msgContainerForModul1_5tips_QA" style="display:none;">msgContainerForModul1_5tips_QA</div>
 

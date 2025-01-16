@@ -7,7 +7,6 @@ permalink: /modul-2-maskinlæring/
 ---
 
 <h1><u>Repetition af modul 2: Maskinlæring.</u></h1>
-<p><i>I alt {{ site.data.modul-02 | size }} spørgsmål.</i></p>
 <div id="containerForModul2QA">containerForModul2QA</div>
 <div id="msgContainerForModul2QA" style="display:none;">msgContainerForModul2QA</div>
 
