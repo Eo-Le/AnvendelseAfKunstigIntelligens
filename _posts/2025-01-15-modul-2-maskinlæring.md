@@ -6,20 +6,32 @@ categories: eksamen repetition
 permalink: /modul-2-maskinlæring/
 ---
 
-I alt {{ site.data.modul-02 | size }} spørgsmål.
 <h1><u>Repetition af modul 2: Maskinlæring.</u></h1>
+<p><i>I alt {{ site.data.modul-02 | size }} spørgsmål.</i></p>
 <div id="containerForModul2QA">containerForModul2QA</div>
+<div id="msgContainerForModul2QA" style="display:none;">msgContainerForModul2QA</div>
 
-<div id="msgContainerForModul2QA" style="display:none;"></div>
-
-<!-- Tilføj denne knap et sted på din HTML-side -->
-<button id="btnForModul2QA" class="shuffle-button">Randomiser spørgsmålene</button>
+<p>
+<button id="resetBtnForModul2QA" class="btn btn-primary">Start forfra</button> | 
+<button id="shuffleBtnForModul2QA" class="btn btn-success">Randomiser spørgsmålene</button>
+</p>
 
 
 
 <!-- Inject JSON data into a JavaScript variable -->
 <script>
   var modul02_QAData = {{ site.data["modul-02"] | jsonify }};
+  initializeQuestionModule({
+    questionContainerId: "containerForModul2QA",
+    shuffleButtonId: "shuffleBtnForModul2QA",
+    resetButtonId: "resetBtnForModul2QA",
+    messageContainerId: "msgContainerForModul2QA",
+    questionData: modul02_QAData
+});
+
+
+
+
 </script>
 
 <!-- Include the script to handle the interactive functionality -->

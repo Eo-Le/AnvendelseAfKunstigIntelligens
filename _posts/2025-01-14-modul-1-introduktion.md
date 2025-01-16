@@ -6,24 +6,46 @@ categories: eksamen repetition
 permalink: /modul-1-introduktion/
 ---
 
-I alt {{ site.data.modul-01 | size }} spørgsmål.
 <h1><u>Repetition af modul 1: Introduktion.</u></h1>
-<div id="questions-container">containerForModul1</div>
+<p><i>I alt {{ site.data.modul-01 | size }} spørgsmål.</i></p>
+<div id="containerForModul1QA">containerForModul1QA</div>
+<div id="msgContainerForModul1QA" style="display:none;">msgContainerForModul1QA</div>
 
-<div id="message-container" style="display:none;"></div>
+<p>
+<button id="resetBtnForModul1QA" class="btn btn-primary">Start forfra</button> | 
+<button id="shuffleBtnForModul1QA" class="btn btn-success">Randomiser spørgsmålene</button>
+</p>
 
-<!-- Tilføj denne knap et sted på din HTML-side -->
-<button id="shuffle-answers" class="shuffle-button">Randomiser spørgsmålene</button>
 
-<h1 class="mt-5"><u>5 Gode tips til at prompte</u></h1>
-<div id="containerFor5GodePromptTips" style="display:block;">containerFor5GodePromptTips</div>
+<h1 class="mt-5"><u>5 gode tips for prompting</u></h1>
+<p><i>I alt {{ site.data.modul-01-5-gode-prompt-tips | size }} tips.</i></p>
+<div id="containerForModul1_5tips_QA">containerForModul1_5tips_QA</div>
+<div id="msgContainerForModul1_5tips_QA" style="display:none;">msgContainerForModul1_5tips_QA</div>
+
+<p>
+<button id="resetBtnForModul1_5tips_QA" class="btn btn-primary">Start forfra</button> | 
+<button id="shuffleBtnForModul1_5tips_QA" class="btn btn-success">Randomiser spørgsmålene</button>
+</p>
+
 
 
 <!-- Inject JSON data into a JavaScript variable -->
 <script>
   var modul01_QAData = {{ site.data["modul-01"] | jsonify }};
-  var modul01_5GodePromptTipsQAData = {{ site.data["modul-01-5-gode-prompt-tips"] | jsonify }};
-</script>
+  initializeQuestionModule({
+    questionContainerId: "containerForModul1QA",
+    shuffleButtonId: "shuffleBtnForModul1QA",
+    resetButtonId: "resetBtnForModul1QA",
+    messageContainerId: "msgContainerForModul1QA",
+    questionData: modul01_QAData
+  });
 
-<!-- Include the script to handle the interactive functionality -->
-<!-- the script is implemented in _includes/head.html -->
+  var modul01_5tips_QAData = {{ site.data["modul-01-5-gode-prompt-tips"] | jsonify }};
+  initializeQuestionModule({
+    questionContainerId: "containerForModul1_5tips_QA",
+    shuffleButtonId: "shuffleBtnForModul1_5tips_QA",
+    resetButtonId: "resetBtnForModul1_5tips_QA",
+    messageContainerId: "msgContainerForModul1_5tips_QA",
+    questionData: modul01_5tips_QAData
+  });
+</script>
