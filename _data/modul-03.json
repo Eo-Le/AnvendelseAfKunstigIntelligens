@@ -22,7 +22,7 @@
       ]
     },
     {
-      "Question": "4. Billede genkendelse gør det muligt at..."
+      "Question": "4. Billede genkendelse gør det muligt at...",
       "Answer": [
         "1. en selvkørende bil kan se hvor er de andre biler hen ad på vejen? og hvor er vejen overhovedet? og er der nogle cyklister og fodgængere man skal passe på.",
         "2. sortere ting på samlebåndet eks., nogle ting kan blive sorteret til venstre og andre ting til højre.",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "Question": "5. Hvad er Google Teachablemachine?"
+      "Question": "5. Hvad er Google Teachablemachine?",
       "Answer": [
         "På https://teachablemachine.withgoogle.com kan man træne sin egen AI model til at genkende objekter eks. en banan fra en pære.",
         "I praktisk oprettes en klasse for hver objekt og til hver klasse uploades der billeder af objektet eks. af forskellige former og farver og fra forskellige vinkler og belysninger.",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Question": "6. Hvad er Google Vision AI?"
+      "Question": "6. Hvad er Google Vision AI?",
       "Answer": [
         "På https://cloud.google.com/vision#demo kan man få sine billeder analyseret. ",
         "Man kan uploade forskellige former for billeder eks: ",
