@@ -8,9 +8,9 @@
     {
       "Question": "2. Hvad er billedeanalyse?",
       "Answer": [
-        "Billedeanalyse er mere ustruktureret og går ud på at analysere hvad der er på billedet ",
-        "og hvad det er et udtryk for - det kan være hvilket humør folk ",
-        "eller hvilket engagement de har eller andet"
+        "Billedeanalyse er mere ustruktureret og går ud på at analysere, hvad der er på billedet ",
+        "og hvad det er et udtryk for - det kan være hvilket humør folk er i ",
+        "eller hvilket engagement de har eller andet."
       ]
     },
     {
@@ -27,7 +27,7 @@
         "1. en selvkørende bil kan se hvor er de andre biler hen ad på vejen? og hvor er vejen overhovedet? og er der nogle cyklister og fodgængere man skal passe på.",
         "2. sortere ting på samlebåndet eks., nogle ting kan blive sorteret til venstre og andre ting til højre.",
         "3. overvågningskameraer kan genkende personer ikke kun om det er en person på billedet, men hvilken person det er på billedet. Kan også anvendes til at sikre, hvem der har adgang til hvilket lokalet.",
-        "4. beskrive de elementer der er på billedet. Dette gør det muligt at google efter bestemte billeder, f.eks. 'en person på skovtur som gynger'"
+        "4. beskrive de elementer der er på billedet. Dette gør det muligt at google efter bestemte billeder, f.eks. 'en person på skovtur som gynger'."
       ]
     },
     {
@@ -46,7 +46,7 @@
         "På https://cloud.google.com/vision#demo kan man få sine billeder analyseret. ",
         "Man kan uploade forskellige former for billeder eks: ",
         "1. Et billede med ansigter - og få Google Vision AI til at analysere ansigterne for følelse?",
-        "2. Et billede med tekst (f. eks. graffiti eller skilte) - g få Google Vision AI til at genkende teksten?",
+        "2. Et billede med tekst (f. eks. graffiti eller skilte) - og få Google Vision AI til at genkende teksten?",
         "3. Et billede med meget plads omkring - og Google Vision AI vil foreslå at beskære billedet (under sektionen Properties)"
       ]
     }
