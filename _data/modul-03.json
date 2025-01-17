@@ -14,7 +14,7 @@
       ]
     },
     {
-      "Question": "3. Giv eksempler på brug af billedegenkendelse.",
+      "Question": "3. Giv tre eksempler på brug af billedegenkendelse.",
       "Answer": [
         "1. Automatisk registrering af nummerplade ved parkering.",
         "2. Face ID login på smart phones.",
@@ -22,17 +22,32 @@
       ]
     },
     {
-      "Question": "4. Giv eksempler på brug af billedeanalyse.",
+      "Question": "4. Billede genkendelse gør det muligt at..."
       "Answer": [
-        "1.",
-        "2.",
-        "3."
+        "1. en selvkørende bil kan se hvor er de andre biler hen ad på vejen? og hvor er vejen overhovedet? og er der nogle cyklister og fodgængere man skal passe på.",
+        "2. sortere ting på samlebåndet eks., nogle ting kan blive sorteret til venstre og andre ting til højre.",
+        "3. overvågningskameraer kan genkende personer ikke kun om det er en person på billedet, men hvilken person det er på billedet. Kan også anvendes til at sikre, hvem der har adgang til hvilket lokalet.",
+        "4. beskrive de elementer der er på billedet. Dette gør det muligt at google efter bestemte billeder, f.eks. 'en person på skovtur som gynger'"
       ]
     },
     {
-      "Question": "5. Hvad er ...?",
+      "Question": "5. Hvad er Google Teachablemachine?"
       "Answer": [
-        "...?"
+        "På https://teachablemachine.withgoogle.com kan man træne sin egen AI model til at genkende objekter eks. en banan fra en pære.",
+        "I praktisk oprettes en klasse for hver objekt og til hver klasse uploades der billeder af objektet eks. af forskellige former og farver og fra forskellige vinkler og belysninger.",
+        "Her efter trænes modellen baseret på de uploadede billeder. ",
+        "Modellen kan eksporteres og bruges på forskellige enheder så som tablets, smart phones eller computere. ",
+        "Modellen kan også gemmes som en fil eller på google drive for senere at arbejde videre med den."
+      ]
+    },
+    {
+      "Question": "6. Hvad er Google Vision AI?"
+      "Answer": [
+        "På https://cloud.google.com/vision#demo kan man få sine billeder analyseret. ",
+        "Man kan uploade forskellige former for billeder eks: ",
+        "1. Et billede med ansigter - og få Google Vision AI til at analysere ansigterne for følelse?"
+        "2. Et billede med tekst (f. eks. graffiti eller skilte) - g få Google Vision AI til at genkende teksten?",
+        "3. Et billede med meget plads omkring - og Google Vision AI vil foreslå at beskære billedet (under sektionen Properties)"
       ]
     }
   ]
