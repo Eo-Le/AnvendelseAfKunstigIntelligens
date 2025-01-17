@@ -49,6 +49,22 @@
         "2. Et billede med tekst (f. eks. graffiti eller skilte) - og få Google Vision AI til at genkende teksten?",
         "3. Et billede med meget plads omkring - og Google Vision AI vil foreslå at beskære billedet (under sektionen Properties)"
       ]
+    },
+    {
+      "Question": "7. Hvad er Video Indexer?",
+      "Answer": [
+        "Video Indexer (VI) er et nøgleelement i Azure Video AI. Video Indexer bruger deep-learning-teknologi til at udtrække avancerede indsigter fra video- og lydfiler: ",
+        "talte ord, ansigter, infererede emner, berømtheder og brugerdefineret ansigtsgenkendelse, objekter, følelser, mærker og meget mere. ",
+        "Video Indexer inkluderer en REST API, som udviklere kan bruge til at bygge skræddersyede løsninger, ",
+        "samt widgets, der direkte kan integreres i kundeapplikationer, og en webbaseret oplevelse, ",
+        "der kan bruges til at udforske tjenestens muligheder og tilpasse den og forbinde den til Azure-kontoen."
+      ]
+    },
+    {
+      "Question": "8. Hvor kan Video Indexer bruges?",
+      "Answer": [
+        "..."
+      ]
     }
   ]
   
