@@ -1,0 +1,39 @@
+[
+    {
+      "Question": "1. Hvad er billedegenkendelse?",
+      "Answer": [
+        "Billedegenkendelse går ud på at identificere et objekt - det kan være et æble, en pære eller en hund."
+      ]
+    },
+    {
+      "Question": "2. Hvad er billedeanalyse?",
+      "Answer": [
+        "Billedeanalyse er mere ustruktureret og går ud på at analysere hvad der er på billedet ",
+        "og hvad det er et udtryk for - det kan være hvilket humør folk ",
+        "eller hvilket engagement de har eller andet"
+      ]
+    },
+    {
+      "Question": "3. Giv eksempler på brug af billedegenkendelse.",
+      "Answer": [
+        "1. Automatisk registrering af nummerplade ved parkering.",
+        "2. Face ID login på smart phones.",
+        "3. Identificering af dyr og insekter via app."
+      ]
+    },
+    {
+      "Question": "4. Giv eksempler på brug af billedeanalyse.",
+      "Answer": [
+        "1.",
+        "2.",
+        "3."
+      ]
+    },
+    {
+      "Question": "5. Hvad er ...?",
+      "Answer": [
+        "...?"
+      ]
+    }
+  ]
+  
