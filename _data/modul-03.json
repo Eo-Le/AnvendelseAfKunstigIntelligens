@@ -45,7 +45,7 @@
       "Answer": [
         "På https://cloud.google.com/vision#demo kan man få sine billeder analyseret. ",
         "Man kan uploade forskellige former for billeder eks: ",
-        "1. Et billede med ansigter - og få Google Vision AI til at analysere ansigterne for følelse?"
+        "1. Et billede med ansigter - og få Google Vision AI til at analysere ansigterne for følelse?",
         "2. Et billede med tekst (f. eks. graffiti eller skilte) - g få Google Vision AI til at genkende teksten?",
         "3. Et billede med meget plads omkring - og Google Vision AI vil foreslå at beskære billedet (under sektionen Properties)"
       ]
