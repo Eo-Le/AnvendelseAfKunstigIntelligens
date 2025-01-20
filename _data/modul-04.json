@@ -156,6 +156,30 @@
         " ",
         "b. Lydjustering: Justering af volumen og andre lydparametre for at sikre, at den syntetiserede tale er klar og naturlig."
       ]
+    },
+    {
+      "Question": "17. Hvad er elevenlabs?",
+      "Answer": [
+        "https://elevenlabs.io/: ElevenLabs er en platform, der specialiserer sig i stemmegenerering og talebaseret teknologi. ",
+        "Den bruger avanceret kunstig intelligens til at skabe realistiske syntetiske stemmer og tilbyder værktøjer til tekst-til-tale (TTS), stemmekloning og lydredigering. ",
+        "ElevenLabs en innovativ løsning til at generere højkvalitets syntetisk tale, der kan bruges til mange forskellige formål inden for medier, teknologi og kommunikation.",
+        " ",
+        "Funktioner og brug:",
+        " ",
+        "1. Tekst-til-tale (TTS):",
+        "a. Brugere kan indtaste tekst, og platformen konverterer den til naturligt lydende tale. ",
+        "b. Tjenesten understøtter flere sprog og accenter.",
+        " ",
+        "2. Stemmekloning:",
+        "a. Brugere kan uploade lydprøver af en stemme, som platformen derefter kan kopiere. Dette er nyttigt til personalisering eller efterligning af specifikke stemmer.",
+        "b. Kloning kræver brugerens samtykke og lydprøver.",
+        " ",
+        "3. Indholdsproduktion:",
+        "a. ElevenLabs bruges ofte af indholdsskabere, e-læring-udbydere og virksomheder til at skabe professionelle voice-overs til videoer, podcasts og præsentationer.",
+        " ",
+        "4. Integrationer:",
+        "a. Platformen kan integreres med andre værktøjer og API'er, hvilket gør den velegnet til softwareudviklere, der vil implementere syntetisk tale i deres produkter."
+      ]
     }
   ]
   
