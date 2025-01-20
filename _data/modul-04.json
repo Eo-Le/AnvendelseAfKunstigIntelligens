@@ -2,25 +2,32 @@
     {
       "Question": "1. Hvad er Tekst-til-tale?",
       "Answer": [
-        "...."
+        "Tekst-til-tale er, når computeren taler for dig."
       ]
     },
     {
       "Question": "2.Hvad er Tale-til-tekst?",
       "Answer": [
-        "Jeg skal løse denne opgave. Hvor skal jeg starte?"
+        "Tale-til-tekst er, når det du siger, automatisk bliver tekstet af computeren."
       ]
     },
     {
-      "Question": "3. Hvad er???",
+      "Question": "3. Uddyb hvad Tekst-til-tale er.",
       "Answer": [
-        "...?"
+        "Tekst-til-tale handler om at få computeren til at sige noget. ",
+        "Konceptet er, at vi giver computeren noget tekst, og så laver den det lyd. ",
+        "Den tale der svarer til, at man højt læser eller oplæser den tekst, som vi har givet. Det er en teknologi, der bruges virkelig mange steder. ",
+        "De fleste former for tekst behandlinger har mulighed for at man kan få oplæst den tekst, der står i dokumentet.",
+        "Eksempelvis brug af oversættelse med Google translate, hvor man kan få læst op både den tekst man selv har skrevet eller den oversatte tekst til et andet sprog.",
+        "Det er i øvrigt den samme teknologi der bruges, når man for eksempel siger 'siri fortæl mig en vittighed.'",
       ]
     },
     {
-      "Question": "4. Hvad er??",
+      "Question": "4. Uddyb avanceret Tekst-til-tale",
       "Answer": [
-        "...?"
+        "Teknologien gør det muligt, at man kan lave sine egne lydfiler fra tekst-til-tale. ",
+        "Det er også muligt at tilpasse den måde det bliver talt på, sådan at stemmen bliver lidt mere dynamisk og knap så computeragtig. ",
+        "Det er også muligt at træne computeren til at tale med noget, der ligner ens egen stemme."
       ]
     },
     {
