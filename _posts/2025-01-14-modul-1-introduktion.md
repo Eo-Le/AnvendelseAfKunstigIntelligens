@@ -6,7 +6,7 @@ categories: eksamen repetition
 permalink: /modul-1-introduktion/
 ---
 
-<h1><u>Repetition af modul 1: Introduktion</u></h1>
+<h1><u>Repetition af {{ page.title }}</u></h1>
 <div id="containerForModul1QA">containerForModul1QA</div>
 <div id="msgContainerForModul1QA" style="display:none;">msgContainerForModul1QA</div>
 

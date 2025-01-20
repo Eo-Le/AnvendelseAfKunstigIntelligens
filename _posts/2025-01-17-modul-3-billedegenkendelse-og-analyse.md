@@ -3,7 +3,7 @@ layout: post
 title:  "Modul 3: Billedegenkendelse og -analyse"
 date:   2025-01-17 10:15 +0000
 categories: eksamen repetition
-permalink: /modul-3-billedegenkedelse-og--analyse/
+permalink: /modul-3-billedegenkedelse-og-analyse/
 ---
 
 <h1><u>Repetition af {{ page.title }}</u></h1>

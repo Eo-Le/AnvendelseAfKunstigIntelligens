@@ -6,7 +6,7 @@ categories: eksamen repetition
 permalink: /modul-2-maskinlæring/
 ---
 
-<h1><u>Repetition af modul 2: Maskinlæring.</u></h1>
+<h1><u>Repetition af {{ page.title }}</u></h1>
 <div id="containerForModul2QA">containerForModul2QA</div>
 <div id="msgContainerForModul2QA" style="display:none;">msgContainerForModul2QA</div>
 
