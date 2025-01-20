@@ -1,7 +1,7 @@
 .question-card {
   // width: 300px;
   margin: 20px 0px;
-  padding: 15px;
+  padding: 15px 15px 50px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -39,4 +39,19 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   pointer-events: none; // Prevent interaction interference
+}
+
+// Add styling for card-back
+.card-back {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  pointer-events: auto; // Prevent interaction interference
 }
