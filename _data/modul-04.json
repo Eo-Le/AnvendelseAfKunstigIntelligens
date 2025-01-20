@@ -51,13 +51,13 @@
         "1. Tekstforbehandling og normalisering: Før en TTS-motor kan omdanne tekst til tale, skal teksten forbehandles og normaliseres. ",
         "Dette sikrer, at teksten er i en form, der kan forstås og behandles korrekt af systemet. ",
         " ",
-        "Tokenisering: Dette trin indebærer at opdele teksten i mindre enheder som ord og sætninger. ",
+        "a. Tokenisering: Dette trin indebærer at opdele teksten i mindre enheder som ord og sætninger. ",
         "Tokenisering er afgørende for at kunne analysere og behandle tekst på en struktureret måde. ",
         " ",
-        "Ekspansion af forkortelser: Forkortelser og symboler konverteres til deres fulde former. For eksempel bliver 'Dr.' til 'Doktor' og 'st.' til 'street' (gade). ",
+        "b. Ekspansion af forkortelser: Forkortelser og symboler konverteres til deres fulde former. For eksempel bliver 'Dr.' til 'Doktor' og 'st.' til 'street' (gade). ",
         "Denne ekspansion sikrer, at alle elementer i teksten udtales korrekt.",
         " ",
-        "Håndtering af tal og datoer: Numeriske værdier og datoer konverteres til deres talte former. ",
+        "c. Håndtering af tal og datoer: Numeriske værdier og datoer konverteres til deres talte former. ",
         "For eksempel bliver '2024' til 'to tusind fire og tyve' og '12/05/2024' til 'tolvte maj to tusind fire og tyve'."
       ]
     },
@@ -67,10 +67,10 @@
         "2. Fonetisk transkription: Efter tekstforbehandling er det næste skridt at oversætte teksten til fonetiske symboler, som repræsenterer talelyde. ",
         "Dette trin er kritisk for at sikre korrekt udtale af hvert ord. ",
         " ",
-        "Fonetisk ordbog: En fonetisk ordbog bruges til at slå ord op og finde deres fonetiske repræsentationer. ",
+        "a. Fonetisk ordbog: En fonetisk ordbog bruges til at slå ord op og finde deres fonetiske repræsentationer. ",
         "Denne ordbog indeholder information om, hvordan hvert ord i sproget udtales.",
         " ",
-        "Udtaleregler: For ord, der ikke findes i den fonetiske ordbog, anvendes udtaleregler til at bestemme deres fonetiske repræsentation. ",
+        "b. Udtaleregler: For ord, der ikke findes i den fonetiske ordbog, anvendes udtaleregler til at bestemme deres fonetiske repræsentation. ",
         "Disse regler kan baseres på generelle mønstre i sproget og specifikke regler for bestemte ordgrupper."
       ]
     },
@@ -78,13 +78,13 @@
       "Question": "9. Uddyb Prosodisk modellering",
       "Answer": [
         "3. Prosodisk modellering: Prosodi refererer til de rytmiske og intonationsmønstre i tale, som bidrager til talens naturlighed og forståelighed. ",
-        "En effektiv TTS-motor skal kunne modellere prosodi korrekt for at skabe en naturlig lyttereoplevelse. ",
+        "En effektiv TTS-motor skal kunne modellere prosodi korrekt for at skabe en naturlig lytteroplevelse. ",
         " ",
-        "Intonation: Variationer i tonehøjde over tid, som hjælper med at formidle mening og følelser. ",
+        "a. Intonation: Variationer i tonehøjde over tid, som hjælper med at formidle mening og følelser. ",
         " ",
-        "Rytme: Timing og varighed af lyde og pauser, som giver talen sin naturlige flydende. ",
+        "b. Rytme: Timing og varighed af lyde og pauser, som giver talen sin naturlige flydende. ",
         " ",
-        "Styrke: Variationer i lydstyrken, der hjælper med at fremhæve vigtige ord eller sætninger."
+        "c. Styrke: Variationer i lydstyrken, der hjælper med at fremhæve vigtige ord eller sætninger."
       ]
     },
     {
@@ -92,10 +92,10 @@
       "Answer": [
         "4. Akustisk modellering: Akustisk modellering er processen med at skabe en model, der kan generere lydbølger baseret på de fonetiske og prosodiske beskrivelser af teksten.",
         " ",
-        "Deep Learning Modeller: Moderne TTS-systemer bruger dybe neurale netværk, såsom Tacotron, WaveNet eller Transformer-baserede modeller, til at lære komplekse mønstre i sprogdata. ",
+        "a. Deep Learning Modeller: Moderne TTS-systemer bruger dybe neurale netværk, såsom Tacotron, WaveNet eller Transformer-baserede modeller, til at lære komplekse mønstre i sprogdata. ",
         "Disse modeller er i stand til at forstå og generere meget naturtro tale.",
         " ",
-        "Sekvens-til-sekvens-modellering: Tacotron-modellen, for eksempel, bruger en sekvens-til-sekvens-tilgang til at konvertere tekst til en mel-spektrogram-repræsentation, ",
+        "b. Sekvens-til-sekvens-modellering: Tacotron-modellen, for eksempel, bruger en sekvens-til-sekvens-tilgang til at konvertere tekst til en mel-spektrogram-repræsentation, ",
         "som derefter omdannes til lydbølger.",
       ]
     },
@@ -110,9 +110,9 @@
       "Answer": [
         "6. Encoder: Encoderen analyserer og transformerer inputteksten til en mellemrepræsentation, som bruges af resten af systemet:",
         " ",
-        "Tekstsekvens til kontekstvektorer: Encoderen tager inputtekst og konverterer den til kontekstvektorer, der repræsenterer semantiske og syntaktiske egenskaber.",
+        "a. Tekstsekvens til kontekstvektorer: Encoderen tager inputtekst og konverterer den til kontekstvektorer, der repræsenterer semantiske og syntaktiske egenskaber.",
         " ",
-        "Neurale netværk: Encoderen bruger neurale netværk som RNN, LSTM eller Transformer til at modellere tekstens afhængigheder og kontekst."
+        "b. Neurale netværk: Encoderen bruger neurale netværk som RNN, LSTM eller Transformer til at modellere tekstens afhængigheder og kontekst."
       ]
     },
     {
@@ -120,9 +120,9 @@
       "Answer": [
         "7. Decoder: Decoderen modtager kontekstvektorerne fra encoderen og genererer en outputrepræsentation:",
         " ",
-        "Sekvens-til-sekvens generation: Decoderen konverterer kontekstvektorerne til akustiske features som et mel-spektrogram.",
+        "a. Sekvens-til-sekvens generation: Decoderen konverterer kontekstvektorerne til akustiske features som et mel-spektrogram.",
         " ",
-        "Prosodisk modellering: Decoderen integrerer prosodiske elementer for at sikre naturlig lyd."
+        "b. Prosodisk modellering: Decoderen integrerer prosodiske elementer for at sikre naturlig lyd."
       ]
     },
     {
@@ -130,9 +130,31 @@
       "Answer": [
         "8. Vocoder: Vocoderen konverterer de akustiske features fra decoderen til det endelige lydsignal:",
         " ",
-        "Spektrogram til lydbølger: Vocoderen omdanner mel-spektrogrammet til rå lydprøver.",
+        "a. Spektrogram til lydbølger: Vocoderen omdanner mel-spektrogrammet til rå lydprøver.",
         " ",
-        "Deep Learning Vocoders: Moderne vocodere som WaveNet og HiFi-GAN bruger dybe neurale netværk til at generere høj kvalitet lyd."
+        "b. Deep Learning Vocoders: Moderne vocodere som WaveNet og HiFi-GAN bruger dybe neurale netværk til at generere høj kvalitet lyd."
+      ]
+    },
+    {
+      "Question": "15. Forklar kort integration af Encoder, Decoder og Vocoder i TTS",
+      "Answer": [
+        "9. Encoder, Decoder og Vocoder i TTS: I et typisk AI-baseret TTS-system, som Tacotron 2, arbejder disse komponenter sammen på følgende måde:",
+        " ",
+        "a. Encoder: Inputteksten normaliseres og tokeniseres, hvorefter encoderen konverterer den til en sekvens af kontekstvektorer.",
+        " ",
+        "b. Decoder: Decoderen tager kontekstvektorerne og genererer et mel-spektrogram, som repræsenterer de akustiske træk ved den tilsvarende tale.",
+        " ",
+        "c. Vocoder: Vocoderen konverterer mel-spektrogrammet til det endelige lydsignal, som kan afspilles som naturlig tale."
+      ]
+    },
+    {
+      "Question": "16. Forklar kort Post-processing i TTS",
+      "Answer": [
+        "10. Post-processing: Efter generering kan den syntetiserede tale yderligere forfines gennem post-processing teknikker:",
+        " ",
+        "a. Støjreduktion: Fjernelse af baggrundsstøj og andre uønskede elementer fra det genererede lydsignal.",
+        " ",
+        "b. Lydjustering: Justering af volumen og andre lydparametre for at sikre, at den syntetiserede tale er klar og naturlig."
       ]
     }
   ]
