@@ -54,7 +54,7 @@
         "Tokenisering: Dette trin indebærer at opdele teksten i mindre enheder som ord og sætninger. ",
         "Tokenisering er afgørende for at kunne analysere og behandle tekst på en struktureret måde. ",
         " ",
-        "Ekspansion af forkortelser: Forkortelser og symboler konverteres til deres fulde former. For eksempel bliver "Dr." til "Doktor" og "st." til "street" (gade). ",
+        "Ekspansion af forkortelser: Forkortelser og symboler konverteres til deres fulde former. For eksempel bliver 'Dr.' til 'Doktor' og 'st.' til 'street' (gade). ",
         "Denne ekspansion sikrer, at alle elementer i teksten udtales korrekt.",
         " ",
         "Håndtering af tal og datoer: Numeriske værdier og datoer konverteres til deres talte former. ",
