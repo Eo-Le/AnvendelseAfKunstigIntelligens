@@ -88,7 +88,7 @@
         "nyhedsbureauer, uddannelsesinstitutioner, tv-udbydere, underholdningsejere, virksomheds-apps og generelt for enhver branche, der har en videobibliotek, ",
         "som brugerne skal søge i.",
       ]
-    }},
+    },
     {
       "Question": "11. Uddyb brugen af Indholdsanbefalinger i Video Indexer",
       "Answer": [
@@ -96,7 +96,7 @@
         "For eksempel kan tv-udbydere anbefale yderligere film med den skuespiller, der er identificeret i en allerede set film, ",
         "eller websteder med uddannelsesmæssigt indhold kan foreslå forelæsninger af den samme professor.",
       ]
-    }},
+    },
     {
       "Question": "12. Uddyb brugen af Monetarisering i Video Indexer",
       "Answer": [
@@ -105,7 +105,7 @@
         "levere mere relevante annoncer ved at bruge de udtrukne indsigter som ekstra signaler til annonce-serveren ",
         "(f.eks. at vise en sports-sko-annonce midt i en fodboldkamp versus en svømmekonkurrence).",
       ]
-    }},
+    },
     {
       "Question": "13. Uddyb brugen af Brugerengagement i Video Indexer",
       "Answer": [
@@ -113,7 +113,7 @@
         "For eksempel vil en uddannelsesvideo, der forklarer kugler i de første 30 minutter ",
         "og pyramider i de næste 30 minutter, være mere gavnlig for en studerende, der læser om pyramider, hvis videoen starter ved 30-minutters markeringen.",
       ]
-    }},
+    },
     {
       "Question": "14. Uddyb brugen af Tilgængelighed i Video Indexer",
       "Answer": [
@@ -121,7 +121,7 @@
         "Dette metadata kan bruges til at gøre indhold tilgængeligt for personer med visuelle og auditive handicaps. ",
         "For eksempel har den afspiller-widget, der leveres af Video Indexer, indbygget understøttelse af undertekster, og indsigts-widgeten kan oversætte transkriptionen til andre sprog.",
       ]
-    }},
+    },
     {
       "Question": "15. Uddyb brugen af Indholdshåndtering i Video Indexer",
       "Answer": [
