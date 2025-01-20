@@ -3,7 +3,7 @@
       "Question": "1. Hvad er kunstig intelligens?",
       "Answer": [
         "Kunstig intelligens (KI) er teknologi, der simulerer menneskelig intelligens,",
-        "som at lære, ræsonnere og løse problemer, ved hjælp af computere og algoritmer."
+        "som at lære, tale, ræsonnere, løse problemer og være kreativ ved hjælp af computere og algoritmer."
       ]
     },
     {
@@ -24,7 +24,7 @@
       "Question": "4. Hvad er Minimax?",
       "Answer": [
         "Minimax er en algoritme udviklet af John von Neuman i 1926.",
-        "Algoritmen handler om at arbejde sig fremad fra det seneste træk og vælge den bedst mulige position,",
+        "Algoritmen anvendes i skakcomputer og handler om at arbejde sig fremad fra det seneste træk og vælge den bedst mulige position,",
         "som svar på hver af modstanderens mulige positioner, altså maksimum.",
         "På næste niveau antager den, at modstanderen vil vælge den dårligst mulige position for en selv, altså minimum.",
         "Denne udveksling mellem maksimum og minimum har givet navn til algoritmen: Minimax."
@@ -33,14 +33,14 @@
     {
       "Question": "5. Hvad er quiescence-søgning?",
       "Answer": [
-        "Quiescence-søgning er en algortime, og den indebærer, at maskinen først stopper sin søgning,",
+        "Quiescence-søgning er en algortime, som anvendes i skakcomputer, og den indebærer, at maskinen først stopper sin søgning,",
         "når den når en stabil position, hvor alvorlige ting som ”bonde slår dronning” ikke kan ske."
       ]
     },
     {
       "Question": "6. Hvad er alpha-beta-pruning?",
       "Answer": [
-        "Alpha-beta-pruning er en algoritme.",
+        "Alpha-beta-pruning er en algoritme, som anvendes i skakcomputer.",
         "”Pruning” betyder beskæring, og hensigten er simpelthen rent virtuelt at skære de uinteressante grene af træet",
         " – præcis som man skærer de dårlige grene af et frugttræ."
       ]
@@ -48,7 +48,7 @@
     {
       "Question": "7. Hvad er Stockfish?",
       "Answer": [
-        "Stockfish er en skakcomputer og anvender tre algoritmer som hjørnesten ",
+        "Stockfish er en skakcomputer og anvender tre algoritmer som hjørnesten, nemlig ",
         "- Minimax, quiescence-søgning og alpha-beta-pruning."
       ]
     },
