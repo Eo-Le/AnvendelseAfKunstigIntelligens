@@ -171,7 +171,7 @@
         "b. Tjenesten understøtter flere sprog og accenter.",
         " ",
         "2. Tilpasning af udtalelse",
-        "Tilpasning af udtalelse kan ske i en dictionary file af type PLS. Eksempelvis:",
+        "Tilpasning af udtalelse kan ske i en dictionary file af type PLS. Eksempelvis med lydskriftetn 'ipa' (og ikke 'cmu'):",
         " ",
         "a. tomato udtales som tomato",
         "<lexeme>",
@@ -200,6 +200,25 @@
         " ",
         "5. Integrationer:",
         "a. Platformen kan integreres med andre værktøjer og API'er, hvilket gør den velegnet til softwareudviklere, der vil implementere syntetisk tale i deres produkter."
+      ]
+    },
+    {
+      "Question": "18. Har word en TTS funktion?",
+      "Answer": [
+        "Ja, den hedder Dikter.",
+        " ",
+        "a. Det er muligt at optage under et møde.",
+        "b. Udover at konverter tale-til-tekst, så registrer Word også tidstempel og den person som taler 'Taler 1, Taler 2 osv.'",
+        "c. Word tilbyder at hente formatet ned som 'kun tekst', 'med talere', 'med tidstempler' og 'med talere og tidstempler.'"
+      ]
+    },
+    {
+      "Question": "19. Hvad er GoodTape?",
+      "Answer": [
+        "https://goodtape.io/: GoodTape er et værktøj som kan lave tekst fra din lydfil eller video. ",
+        "Værktøjet er meget nemt at bruge. ",
+        "Man skal blot uploade sin fil på forsiden, acceptere betingelsen og trykke på knappen 'Transcribe' for at konverter filen til tekst. ",
+        "Der er også mulighed for at sætte taler på, hvis der er flere, der taler i filen."
       ]
     }
   ]
