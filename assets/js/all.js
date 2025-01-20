@@ -50,22 +50,45 @@ function initializeQuestionModule({
         const QA = QAData[currentQuestionIndex];
         const card = document.createElement("div");
         card.classList.add("question-card");
-        card.innerHTML = `
-            <div class="question" style="display: ${isAnswerVisible ? "none" : "block"};">
-                <h3><u>${QA.Question}</u></h3>
-            </div>
-            <div class="answer" style="display: ${isAnswerVisible ? "block" : "none"};">
-                <h3><u>${QA.Question}</u></h3>
-                <p>${QA.Answer.join("<br>")}</p>
-            </div>
-            
-            <div class="card-back">
-                <i class="bi bi-arrow-left"></i>
-            </div>
-            <div class="card-counter">
-                ${currentQuestionIndex + 1}/${QAData.length}
-            </div>
-        `;
+
+        const questionDiv = document.createElement("div");
+        questionDiv.classList.add("question");
+        questionDiv.style.display = isAnswerVisible ? "none" : "block";
+        const questionHeading = document.createElement("h3");
+        questionHeading.textContent = QA.Question;
+        questionDiv.appendChild(questionHeading);
+
+        const answerDiv = document.createElement("div");
+        answerDiv.classList.add("answer");
+        answerDiv.style.display = isAnswerVisible ? "block" : "none";
+        const answerHeading = document.createElement("h3");
+        answerHeading.textContent = QA.Question;
+        answerDiv.appendChild(answerHeading);
+
+        const answerParagraph = document.createElement("p");
+        answerParagraph.style.whiteSpace = "pre-wrap"; // Preserve whitespace and line breaks
+        QA.Answer.forEach((line, index) => {
+            answerParagraph.appendChild(document.createTextNode(line));
+            if (index < QA.Answer.length - 1) {
+                answerParagraph.appendChild(document.createElement("br"));
+            }
+        });
+        answerDiv.appendChild(answerParagraph);
+
+        const backDiv = document.createElement("div");
+        backDiv.classList.add("card-back");
+        const backIcon = document.createElement("i");
+        backIcon.classList.add("bi", "bi-arrow-left");
+        backDiv.appendChild(backIcon);
+
+        const counterDiv = document.createElement("div");
+        counterDiv.classList.add("card-counter");
+        counterDiv.textContent = `${currentQuestionIndex + 1}/${QAData.length}`;
+
+        card.appendChild(questionDiv);
+        card.appendChild(answerDiv);
+        card.appendChild(backDiv);
+        card.appendChild(counterDiv);
 
         container.innerHTML = ""; // Clear previous cards
         container.appendChild(card); // Append the new card
@@ -110,9 +133,7 @@ function initializeQuestionModule({
     // Function to show the final message
     function showFinalMessage() {
         container.innerHTML = "";
-        messageContainer.innerHTML = `
-            <p>Tryk på en af knapperne for at prøve igen!</p>
-        `;
+        messageContainer.textContent = "Tryk på en af knapperne for at prøve igen!";
         messageContainer.style.display = "block";
         shuffleButton.disabled = false;
         resetButton.disabled = false;
