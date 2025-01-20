@@ -225,7 +225,7 @@
       "Question": "20. Hvad er Grapheme?",
       "Answer": [
         "Grapheme: Grapheme er skriftsymbol og er den mindste enhed i skrift, der repræsenterer en lyd eller en betydning. ",
-        "Det kan være et bogstav (som "a", "b") eller en kombination af bogstaver (som "ch" i engelsk). ",
+        "Det kan være et bogstav (som 'a', 'b') eller en kombination af bogstaver (som 'ch' i engelsk). ",
         "Graphemet er relateret til, hvordan vi skriver sprog."
       ]
     ,
@@ -233,7 +233,7 @@
       "Question": "21. Hvad er Phoneme?",
       "Answer": [
         "Phoneme: Phoneme er talelyd og er den mindste enhed af lyd i et sprog, der kan ændre betydningen af et ord. ",
-        "For eksempel skelner lydene /p/ og /b/ mellem ordene "pat" og "bat" i engelsk. ",
+        "For eksempel skelner lydene /p/ og /b/ mellem ordene 'pa' og 'bat' i engelsk. ",
         "Phonemet er relateret til, hvordan vi udtaler sprog."
       ]
     }
