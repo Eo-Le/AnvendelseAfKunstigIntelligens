@@ -15,8 +15,8 @@
       "Question": "3. Uddyb hvad Tekst-til-tale er.",
       "Answer": [
         "Tekst-til-tale handler om at få computeren til at sige noget. ",
-        "Konceptet er, at vi giver computeren noget tekst, og så laver den det lyd. ",
-        "Den tale der svarer til, at man højt læser eller oplæser den tekst, som vi har givet. Det er en teknologi, der bruges virkelig mange steder. ",
+        "Konceptet er, at vi giver computeren noget tekst, og så laver den det lyd, ",
+        "eller den tale der svarer til, at man læser højt eller oplæser den tekst, som vi har givet. Det er en teknologi, der bruges virkelig mange steder. ",
         "De fleste former for tekst behandlinger har mulighed for at man kan få oplæst den tekst, der står i dokumentet.",
         "Eksempelvis brug af oversættelse med Google translate, hvor man kan få læst op både den tekst man selv har skrevet eller den oversatte tekst til et andet sprog.",
         "Det er i øvrigt den samme teknologi der bruges, når man for eksempel siger 'siri fortæl mig en vittighed.'",
@@ -31,9 +31,108 @@
       ]
     },
     {
-      "Question": "5. Hvad er?",
+      "Question": "5. Hvordan virker TTS, der anvender AI?",
       "Answer": [
-        "...?"
+        "Tekst-til-tale (TTS) teknologi, der anvender kunstig intelligens (AI), er en avanceret metode til at konvertere skrevet tekst til naturlig talelyd. ",
+        "Denne teknologi har fundet anvendelse i en række forskellige applikationer, herunder hjælpemidler for synshandicappede, kørselsvejledning i GPS-systemer og virtuelle assistenter."
+      ]
+    },
+    {
+      "Question": "6. Forklar kort AI-baseret TTS",
+      "Answer": [
+        "AI-baseret tekst-til-tale teknologi er en kompleks proces, der involverer flere tekniske trin og avancerede metoder. ",
+        "Fra tekstforbehandling og normalisering til fonetisk transkription, prosodisk modellering, akustisk modellering, ",
+        "spektrogram-generering, waveform-syntese og post-processing, spiller hver komponent en kritisk rolle i at skabe høj kvalitet, naturlig tale."
+      ]
+    },
+    {
+      "Question": "7. Uddyb Tekstforbehandling og normalisering",
+      "Answer": [
+        "1. Tekstforbehandling og normalisering: Før en TTS-motor kan omdanne tekst til tale, skal teksten forbehandles og normaliseres. ",
+        "Dette sikrer, at teksten er i en form, der kan forstås og behandles korrekt af systemet. ",
+        " ",
+        "Tokenisering: Dette trin indebærer at opdele teksten i mindre enheder som ord og sætninger. ",
+        "Tokenisering er afgørende for at kunne analysere og behandle tekst på en struktureret måde. ",
+        " ",
+        "Ekspansion af forkortelser: Forkortelser og symboler konverteres til deres fulde former. For eksempel bliver "Dr." til "Doktor" og "st." til "street" (gade). ",
+        "Denne ekspansion sikrer, at alle elementer i teksten udtales korrekt.",
+        " ",
+        "Håndtering af tal og datoer: Numeriske værdier og datoer konverteres til deres talte former. ",
+        "For eksempel bliver '2024' til 'to tusind fire og tyve' og '12/05/2024' til 'tolvte maj to tusind fire og tyve'."
+      ]
+    },
+    {
+      "Question": "8. Uddyb Fonetisk transkription",
+      "Answer": [
+        "2. Fonetisk transkription: Efter tekstforbehandling er det næste skridt at oversætte teksten til fonetiske symboler, som repræsenterer talelyde. ",
+        "Dette trin er kritisk for at sikre korrekt udtale af hvert ord. ",
+        " ",
+        "Fonetisk ordbog: En fonetisk ordbog bruges til at slå ord op og finde deres fonetiske repræsentationer. ",
+        "Denne ordbog indeholder information om, hvordan hvert ord i sproget udtales.",
+        " ",
+        "Udtaleregler: For ord, der ikke findes i den fonetiske ordbog, anvendes udtaleregler til at bestemme deres fonetiske repræsentation. ",
+        "Disse regler kan baseres på generelle mønstre i sproget og specifikke regler for bestemte ordgrupper."
+      ]
+    },
+    {
+      "Question": "9. Uddyb Prosodisk modellering",
+      "Answer": [
+        "3. Prosodisk modellering: Prosodi refererer til de rytmiske og intonationsmønstre i tale, som bidrager til talens naturlighed og forståelighed. ",
+        "En effektiv TTS-motor skal kunne modellere prosodi korrekt for at skabe en naturlig lyttereoplevelse. ",
+        " ",
+        "Intonation: Variationer i tonehøjde over tid, som hjælper med at formidle mening og følelser. ",
+        " ",
+        "Rytme: Timing og varighed af lyde og pauser, som giver talen sin naturlige flydende. ",
+        " ",
+        "Styrke: Variationer i lydstyrken, der hjælper med at fremhæve vigtige ord eller sætninger."
+      ]
+    },
+    {
+      "Question": "10. Uddyb Akustisk modellering",
+      "Answer": [
+        "4. Akustisk modellering: Akustisk modellering er processen med at skabe en model, der kan generere lydbølger baseret på de fonetiske og prosodiske beskrivelser af teksten.",
+        " ",
+        "Deep Learning Modeller: Moderne TTS-systemer bruger dybe neurale netværk, såsom Tacotron, WaveNet eller Transformer-baserede modeller, til at lære komplekse mønstre i sprogdata. ",
+        "Disse modeller er i stand til at forstå og generere meget naturtro tale.",
+        " ",
+        "Sekvens-til-sekvens-modellering: Tacotron-modellen, for eksempel, bruger en sekvens-til-sekvens-tilgang til at konvertere tekst til en mel-spektrogram-repræsentation, ",
+        "som derefter omdannes til lydbølger.",
+      ]
+    },
+    {
+      "Question": "11. Forklar kort hvad Encoder, Decoder og Vocoder er.",
+      "Answer": [
+        "5. Encoder, Decoder og Vocoder: De tre nøglekomponenter i et AI-baseret TTS-system er encoder, decoder og vocoder. Hver af disse komponenter har en specifik rolle i processen."
+      ]
+    },
+    {
+      "Question": "12. Uddyb Encoder",
+      "Answer": [
+        "6. Encoder: Encoderen analyserer og transformerer inputteksten til en mellemrepræsentation, som bruges af resten af systemet:",
+        " ",
+        "Tekstsekvens til kontekstvektorer: Encoderen tager inputtekst og konverterer den til kontekstvektorer, der repræsenterer semantiske og syntaktiske egenskaber.",
+        " ",
+        "Neurale netværk: Encoderen bruger neurale netværk som RNN, LSTM eller Transformer til at modellere tekstens afhængigheder og kontekst."
+      ]
+    },
+    {
+      "Question": "13. Uddyb Decoder",
+      "Answer": [
+        "7. Decoder: Decoderen modtager kontekstvektorerne fra encoderen og genererer en outputrepræsentation:",
+        " ",
+        "Sekvens-til-sekvens generation: Decoderen konverterer kontekstvektorerne til akustiske features som et mel-spektrogram.",
+        " ",
+        "Prosodisk modellering: Decoderen integrerer prosodiske elementer for at sikre naturlig lyd."
+      ]
+    },
+    {
+      "Question": "14. Uddyb Vocoder",
+      "Answer": [
+        "8. Vocoder: Vocoderen konverterer de akustiske features fra decoderen til det endelige lydsignal:",
+        " ",
+        "Spektrogram til lydbølger: Vocoderen omdanner mel-spektrogrammet til rå lydprøver.",
+        " ",
+        "Deep Learning Vocoders: Moderne vocodere som WaveNet og HiFi-GAN bruger dybe neurale netværk til at generere høj kvalitet lyd."
       ]
     }
   ]
