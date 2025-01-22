@@ -1,0 +1,54 @@
+[
+    {
+        "Question": "1. Forklar hvad der menes med Den Stokastiske Papegøje",
+        "Answer": [
+          "Den Store sprogmodel kan sammenlignes med en papegøje, ",
+          "fordi den kan gentage de data den er trænet på. ",
+          "Den store sprogmodel er dog mere intelligen end en papegøje, ",
+          "fordi den er bygget på statistik. ",
+          "Måden den store sprogmodel fungerer på er sammenlignelig med en lille sprogmodel, dog mere avanceret. ",
+          "En lille sprogmodel indeholder flere forgreninger til det næste ord i sætningen. ",
+          "Hver forgrening er tilknyttet en sandsynlighed for forekomsten af ordet i sætningen. ",
+          "En stor sprogmodel indeholder utallige af forgreninger og er trænet på enorme mængde data."
+        ]
+    },
+    {
+      "Question": "2. Hvad hedder det, når man taler til den store sprogmodel?",
+      "Answer": [
+        "Det hedder at prompte. Det er måden, man taler til den store sprogmodel. ",
+        "Der er forskellige metoder, som gør det mere effektivt at føre en samtale med den store sprogmodel."
+      ]
+    },
+    {
+      "Question": "3. Er ChatGPT en stor sprogmodel?",
+      "Answer": [
+        "Ja ChatGPT er en stor sprogmodel og er trænet på enorme mængde data tilgængelige på internettet."
+      ]
+    },
+    {
+      "Question": "4. Uddyb hvad ChatGPT er",
+      "Answer": [
+        "ChatGPT er en **stor sprogmodel** udviklet af OpenAI, baseret på GPT-arkitekturen (**Generative Pre-trained Transformer**), ",
+        "der bruger **neural netværk** og transformer-algoritmer til at forstå og generere tekst. ",
+        "Den er trænet med avanceret **dyb læring** på omfattende tekstdatasæt, der inkluderer bøger, artikler, ",
+        "hjemmesider og andre offentligt tilgængelige kilder, primært fra før 2021. ",
+        "Modellen anvendes til opgaver som **spørgsmål-svar**, **tekstforståelse**, **kreativ skrivning** og **programmering**, ",
+        "hvor den kan skrive, debugge og forklare kode. ",
+        " ",
+        "Forskellige versioner af ChatGPT er udviklet for at imødekomme forskellige behov: ",
+        " ",
+        "- **GPT-3.5-turbo** er en effektiv og hurtigere model, som balancerer præstation og omkostninger. ",
+        " ",
+        "- **GPT-4** tilbyder bedre kontekstforståelse, større nøjagtighed og evnen til at håndtere mere komplekse opgaver, ",
+        "hvilket gør den ideel til avancerede behov. ",
+        " ",
+        "- Modeller som **4-turbo** er optimerede for at levere høj ydeevne til lavere omkostninger. ",
+        " ",
+        "- Mindre versioner som **01-mini** er lettere og designet til specifikke applikationer, ",
+        "hvor ressourcer eller hurtighed prioriteres frem for maksimal præcision. ",
+        " ",
+        "Alle versioner anvender transformerens **selvopmærksomhedsmekanismer**, der gør det muligt at forstå kontekst i både tekst og kode. ",
+        "Disse forskelle gør det muligt for brugere at vælge en model, der passer bedst til deres behov og budget. "
+      ]
+    }
+  ]
