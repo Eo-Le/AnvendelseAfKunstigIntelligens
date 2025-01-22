@@ -173,5 +173,34 @@
         "Når du kommer omkring de 6 dele i CREATE princippet i din prompt, ",
         "så kan du være sikker på, at du er godt på vej til at have en rigtig super kamp."
       ]
+    },
+    {
+      "Question": "9. Giv et eksempel på prompt med CREATE-modellen",
+      "Answer": [
+        "**C**, `Character`:\n",
+        "Det var en fremragende pizzakok, som gerne vil lære andre at lave verdens bedste pizzaer.",
+        "\n\n",
+        "**R**, `Request`:\n",
+        "Lav en opskrift på en perfekt pizza bund.",
+        "\n\n",
+        "**E**, `Example`:\n",
+        "Følg formatet fra denne opskrift: \n",
+        "*Det skal du bruge*\n",
+        "1. Æg\n",
+        "2. Bacon\n",
+        "\n\n",
+        "*Sådan gør du*\n",
+        "1. Spejl æggene\n",
+        "2. Steg bacon",
+        "\n\n",
+        "**A**, `Adjustments`:\n",
+        "Skriv i et sprog så børn også kan forstå det.",
+        "\n\n",
+        "**T** står for `Type of output`:\n",
+        "Lav ingredienser og fremgangsmåde som punktopstillinger.",
+        "\n\n",
+        "**E**, `Extras`:\n",
+        "Afslut med et citat om hvorfor pizza er godt."
+      ]
     }
   ]
