@@ -2,13 +2,14 @@
     {
       "Question": "1. Hvad er billedegenkendelse?",
       "Answer": [
-        "Billedegenkendelse går ud på at identificere et objekt - det kan være et æble, en pære eller en hund."
+        "**Billedegenkendelse** går ud på at identificere et objekt - ",
+        "det kan være et æble, en pære eller en hund."
       ]
     },
     {
       "Question": "2. Hvad er billedeanalyse?",
       "Answer": [
-        "Billedeanalyse er mere ustruktureret og går ud på at analysere, hvad der er på billedet ",
+        "**Billedeanalyse** er mere ustruktureret og går ud på at analysere, hvad der er på billedet ",
         "og hvad det er et udtryk for - det kan være hvilket humør folk er i ",
         "eller hvilket engagement de har eller andet."
       ]
@@ -16,46 +17,64 @@
     {
       "Question": "3. Giv tre eksempler på brug af billedegenkendelse.",
       "Answer": [
-        "1. Automatisk registrering af nummerplade ved parkering.",
-        "2. Face ID login på smart phones.",
-        "3. Identificering af dyr og insekter via app."
+        "1. Automatisk registrering af `nummerplade` ved parkering. \n",
+        "2. `Face ID` login på smart phones. \n",
+        "3. `Identificering` af dyr og insekter via app. \n"
       ]
     },
     {
       "Question": "4. Billede genkendelse gør det muligt at...",
       "Answer": [
-        "1. en selvkørende bil kan se hvor er de andre biler hen ad på vejen? og hvor er vejen overhovedet? og er der nogle cyklister og fodgængere man skal passe på.",
-        "2. sortere ting på samlebåndet eks., nogle ting kan blive sorteret til venstre og andre ting til højre.",
-        "3. overvågningskameraer kan genkende personer ikke kun om det er en person på billedet, men hvilken person det er på billedet. Kan også anvendes til at sikre, hvem der har adgang til hvilket lokalet.",
-        "4. beskrive de elementer der er på billedet. Dette gør det muligt at google efter bestemte billeder, f.eks. 'en person på skovtur som gynger'."
+        "1. en selvkørende bil kan se hvor er de andre biler hen ad på vejen? ",
+        "og hvor er vejen overhovedet? ",
+        "og er der nogle cyklister og fodgængere man skal passe på. \n\n",
+        "2. sortere ting på samlebåndet eks., ",
+        "nogle ting kan blive sorteret til venstre og andre ting til højre. \n\n",
+        "3. overvågningskameraer kan genkende personer ",
+        "ikke kun om det er en person på billedet, ",
+        "men hvilken person det er på billedet. ",
+        "Kan også anvendes til at sikre, hvem der har adgang til hvilket lokalet.\n\n",
+        "4. beskrive de elementer der er på billedet. ",
+        "Dette gør det muligt at google efter bestemte billeder, f.eks. 'en person på skovtur som gynger'."
       ]
     },
     {
       "Question": "5. Hvad er Google Teachablemachine?",
       "Answer": [
-        "På https://teachablemachine.withgoogle.com kan man træne sin egen AI model til at genkende objekter eks. en banan fra en pære.",
-        "I praktisk oprettes en klasse for hver objekt og til hver klasse uploades der billeder af objektet eks. af forskellige former og farver og fra forskellige vinkler og belysninger.",
+        "På https://teachablemachine.withgoogle.com kan man træne sin egen AI model ",
+        "til at genkende objekter eks. en banan fra en pære. ",
+        "I praktisk oprettes en klasse for hver objekt ",
+        "og til hver klasse uploades der billeder af objektet ",
+        "eks. af forskellige former og farver og fra forskellige vinkler og belysninger. ",
         "Her efter trænes modellen baseret på de uploadede billeder. ",
-        "Modellen kan eksporteres og bruges på forskellige enheder så som tablets, smart phones eller computere. ",
-        "Modellen kan også gemmes som en fil eller på google drive for senere at arbejde videre med den."
+        "Modellen kan eksporteres og bruges på forskellige enheder ",
+        "så som tablets, smart phones eller computere. ",
+        "Modellen kan også gemmes som en fil eller på google drive ",
+        "for senere at arbejde videre med den."
       ]
     },
     {
       "Question": "6. Hvad er Google Vision AI?",
       "Answer": [
         "På https://cloud.google.com/vision#demo kan man få sine billeder analyseret. ",
-        "Man kan uploade forskellige former for billeder eks: ",
-        "1. Et billede med ansigter - og få Google Vision AI til at analysere ansigterne for følelse?",
-        "2. Et billede med tekst (f. eks. graffiti eller skilte) - og få Google Vision AI til at genkende teksten?",
-        "3. Et billede med meget plads omkring - og Google Vision AI vil foreslå at beskære billedet (under sektionen Properties)"
+        "Man kan uploade forskellige former for billeder eks: \n",
+        "1. Et billede med ansigter - ",
+        "og få Google Vision AI til at analysere ansigterne for følelse? \n\n",
+        "2. Et billede med tekst (f. eks. graffiti eller skilte) - ",
+        "og få Google Vision AI til at genkende teksten? \n\n",
+        "3. Et billede med meget plads omkring - ",
+        "og Google Vision AI vil foreslå at beskære billedet (under sektionen Properties) \n\n"
       ]
     },
     {
       "Question": "7. Hvad er Video Indexer?",
       "Answer": [
-        "Video Indexer (VI) er et nøgleelement i Azure Video AI. Video Indexer bruger deep-learning-teknologi til at udtrække avancerede indsigter fra video- og lydfiler: ",
-        "talte ord, ansigter, infererede emner, berømtheder og brugerdefineret ansigtsgenkendelse, objekter, følelser, mærker og meget mere. ",
-        "Video Indexer inkluderer en REST API, som udviklere kan bruge til at bygge skræddersyede løsninger, ",
+        "**Video Indexer** (VI) er et nøgleelement i Azure Video AI. ",
+        "Video Indexer bruger deep-learning-teknologi til at udtrække ",
+        "avancerede indsigter fra video- og lydfiler: ",
+        "`talte ord`, `ansigter`, `infererede emner`, `berømtheder` ",
+        "og `brugerdefineret ansigtsgenkendelse`, `objekter`, `følelser`, `mærker` og meget mere. \n\n",
+        "Video Indexer inkluderer en `REST API`, som udviklere kan bruge til at bygge skræddersyede løsninger, ",
         "samt widgets, der direkte kan integreres i kundeapplikationer, og en webbaseret oplevelse, ",
         "der kan bruges til at udforske tjenestens muligheder og tilpasse den og forbinde den til Azure-kontoen."
       ]
@@ -63,70 +82,88 @@
     {
       "Question": "8. Hvilken form for rapport leverer Video Indexer?",
       "Answer": [
-        "Video Indexer leverer en rapport om indholdsanalyse, som kunderne straks kan bruge til at forbedre eksisterende oplevelser - f.eks. forbedring af søgeoplevelser eller tilgængelighed. ",
-          "Denne nye dimension af tilgængelig viden giver kunderne også mulighed for at låse op for nye innovationer både inden for brugeroplevelse og forretningsmodeller."
+        "Video Indexer leverer en rapport om indholdsanalyse, ",
+        "som kunderne straks kan bruge til at forbedre eksisterende oplevelser ",
+        "- f.eks. forbedring af `søgeoplevelser` eller `tilgængelighed`. ",
+        "Denne nye dimension af tilgængelig viden giver kunderne også mulighed for ",
+        "at låse op for nye innovationer både inden for `brugeroplevelse` og `forretningsmodeller`."
       ]
     },
     {
       "Question": "9. Nævn 6 områder hvor Video Indexer kan bruges.",
       "Answer": [
-        "1. Søgning",
-        "2. Baseret på indholdsanbefalinger",
-        "3. Monetarisering",
-        "4. Brugerengagement",
-        "5. Tilgængelighed",
-        "6. Indholdshåndtering"
+        "1. Søgning\n\n",
+        "2. Baseret på indholdsanbefalinger\n\n",
+        "3. Monetarisering\n\n",
+        "4. Brugerengagement\n\n",
+        "5. Tilgængelighed\n\n",
+        "6. Indholdshåndtering\n\n"
       ]
     },
     {
       "Question": "10. Uddyb brugen af Søgning i Video Indexer",
       "Answer": [
-        "1. Søgning - Indsigter, der er udvundet fra videoen, kan bruges til at forbedre søgeoplevelsen i en videobibliotek. ",
+        "1. **Søgning** - Indsigter, der er udvundet fra videoen, ",
+        "kan bruges til at forbedre søgeoplevelsen i en videobibliotek. ",
         "For eksempel kan indeksering af talte ord og ansigter muliggøre søgning efter øjeblikke i en video, ",
         "hvor en person sagde bestemte ord, eller når to personer blev set sammen. ",
         "Søgning baseret på sådanne indsigter fra videoer er relevant for ",
-        "nyhedsbureauer, uddannelsesinstitutioner, tv-udbydere, underholdningsejere, virksomheds-apps og generelt for enhver branche, der har en videobibliotek, ",
-        "som brugerne skal søge i.",
+        "nyhedsbureauer, uddannelsesinstitutioner, tv-udbydere, ",
+        "underholdningsejere, virksomheds-apps og generelt for enhver branche, der har en videobibliotek, ",
+        "som brugerne skal søge i."
       ]
     },
     {
       "Question": "11. Uddyb brugen af Indholdsanbefalinger i Video Indexer",
       "Answer": [
-        "2. Baseret på indholdsanbefalinger - Indsigter udvundet fra videoen kan også bruges til at levere dybdegående anbefalinger baseret på indholdet. ",
-        "For eksempel kan tv-udbydere anbefale yderligere film med den skuespiller, der er identificeret i en allerede set film, ",
-        "eller websteder med uddannelsesmæssigt indhold kan foreslå forelæsninger af den samme professor.",
+        "2. **Baseret på indholdsanbefalinger** ",
+        "- Indsigter udvundet fra videoen kan også bruges til ",
+        "at levere dybdegående anbefalinger baseret på indholdet. ",
+        "For eksempel kan tv-udbydere anbefale yderligere film med den skuespiller, ",
+        "der er identificeret i en allerede set film, ",
+        "eller websteder med uddannelsesmæssigt indhold kan foreslå forelæsninger af den samme professor."
       ]
     },
     {
       "Question": "12. Uddyb brugen af Monetarisering i Video Indexer",
       "Answer": [
-        "3. Monetarisering - Video Indexer kan hjælpe med at forbedre værdien af videoer. ",
-        "For eksempel kan industrier, der er afhængige af annonceindtægter (f.eks. nyhedsmedier, sociale medier osv.), ",
+        "3. **Monetarisering** - Video Indexer kan hjælpe med at forbedre værdien af videoer. ",
+        "For eksempel kan industrier, der er afhængige af annonceindtægter ",
+        "(f.eks. nyhedsmedier, sociale medier osv.), ",
         "levere mere relevante annoncer ved at bruge de udtrukne indsigter som ekstra signaler til annonce-serveren ",
-        "(f.eks. at vise en sports-sko-annonce midt i en fodboldkamp versus en svømmekonkurrence).",
+        "(f.eks. at vise en sports-sko-annonce midt i en fodboldkamp versus en svømmekonkurrence)."
       ]
     },
     {
       "Question": "13. Uddyb brugen af Brugerengagement i Video Indexer",
       "Answer": [
-        "4. Brugerengagement - Videoindblik kan bruges til at forbedre brugerengagement ved at vise relevante videomomenter til brugerne. ",
+        "4. **Brugerengagement** - Videoindblik kan bruges til at forbedre brugerengagement ",
+        "ved at vise relevante videomomenter til brugerne. ",
         "For eksempel vil en uddannelsesvideo, der forklarer kugler i de første 30 minutter ",
-        "og pyramider i de næste 30 minutter, være mere gavnlig for en studerende, der læser om pyramider, hvis videoen starter ved 30-minutters markeringen.",
+        "og pyramider i de næste 30 minutter, være mere gavnlig for en studerende, ",
+        "der læser om pyramider, hvis videoen starter ved 30-minutters markeringen."
       ]
     },
     {
       "Question": "14. Uddyb brugen af Tilgængelighed i Video Indexer",
       "Answer": [
-        "5. Tilgængelighed - Video Indexer udtrækker metadata såsom talte ord, de personer, der er til stede i en videosekvens, teksten i videoen osv. ",
-        "Dette metadata kan bruges til at gøre indhold tilgængeligt for personer med visuelle og auditive handicaps. ",
-        "For eksempel har den afspiller-widget, der leveres af Video Indexer, indbygget understøttelse af undertekster, og indsigts-widgeten kan oversætte transkriptionen til andre sprog.",
+        "5. **Tilgængelighed** - Video Indexer udtrækker metadata såsom talte ord, ",
+        "de personer, der er til stede i en videosekvens, teksten i videoen osv. ",
+        "Dette metadata kan bruges til at gøre indhold tilgængeligt ",
+        "for personer med visuelle og auditive handicaps. ",
+        "For eksempel har den afspiller-widget, der leveres af Video Indexer, ",
+        "indbygget understøttelse af undertekster, ",
+        "og indsigts-widgeten kan oversætte transkriptionen til andre sprog."
       ]
     },
     {
       "Question": "15. Uddyb brugen af Indholdshåndtering i Video Indexer",
       "Answer": [
-        "6. Indholdshåndtering - Video Indexer kan identificere potentielt stødende tekstligt og visuelt indhold og kan derfor bruges til indholdshåndtering. ",
-        "Dette er nyttigt f.eks. til forældrekontrol eller for at sikre, at virksomhedens politik overholdes i en virksomhedsomgivelser.",
+        "6. **Indholdshåndtering** - Video Indexer kan identificere ",
+        "potentielt stødende tekstligt og visuelt indhold ",
+        "og kan derfor bruges til indholdshåndtering. ",
+        "Dette er nyttigt f.eks. til forældrekontrol ",
+        "eller for at sikre, at virksomhedens politik overholdes i en virksomhedsomgivelser."
       ]
     }
   ]
