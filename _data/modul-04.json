@@ -203,7 +203,7 @@
       ]
     },
     {
-      "Question": "18. Har word en TTS funktion?",
+      "Question": "18. Har word en Tale-til-tekst funktion?",
       "Answer": [
         "Ja, den hedder Dikter.",
         " ",
@@ -213,9 +213,9 @@
       ]
     },
     {
-      "Question": "19. Hvad er GoodTape?",
+      "Question": "19. Hvad er Good Tape?",
       "Answer": [
-        "https://goodtape.io/: GoodTape er et værktøj som kan lave tekst fra din lydfil eller video. ",
+        "https://goodtape.io/: Good Tape er et værktøj som kan lave tekst fra din lydfil eller video. ",
         "Værktøjet er meget nemt at bruge. ",
         "Man skal blot uploade sin fil på forsiden, acceptere betingelsen og trykke på knappen 'Transcribe' for at konverter filen til tekst. ",
         "Der er også mulighed for at sætte taler på, hvis der er flere, der taler i filen."
