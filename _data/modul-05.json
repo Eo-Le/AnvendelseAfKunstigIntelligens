@@ -49,12 +49,20 @@
         "Vi ved ikke præcis, hvilke oplysninger de enkelte vektorer angiver, men det kan være ting som **udskiftelighed** - altså om to ord kan stå på samme plads i en sætning. ",
         "I sådan en vektor vil ordet **glad** og **trist** være tæt på hinanden, selv om de andre vektorer vil være langt fra hinanden. ",
         "En simpel ordbog på din telefon har til gengæld kun en enkelt dimension, hvilket ord er mest sandsynlige i alle sammenhænge. ",
-        "Selv om det prinvipielt er det samme en stor sprogmodel gør, så gør den det meget bedre og det er der to grunde til: ",
+        "Selv om det principielt er det samme en stor sprogmodel gør, så gør den det meget bedre og det er der to grunde til: ",
         " ",
         "**Transformers** og",
         "**Attention**",
         " ",
-        "En transformer er en matematisk proces som genberegner hver tokens vektorer."
+        "En transformer er en matematisk proces som genberegner hver tokens vektorer. ",
+        "Dvs., at de opdaterer afstanden mellem 2 tokens, blandt andet ud fra hvilke andre tokens der er i nærheden. ",
+        "Når du stiller et spørgsmål i en chat, for eksempel om hvordan man bedst spiser pasta, så begynder sprog modellen at skrive sit svar. ",
+        "Modellen starter med at omformulere dit spørgsmål, som et svar. Nu skal den bare finde det mest sandsynlige næste ord. ",
+        "Sprogmodellen starter med at vurdere relationerne mellem alle de ord, den kender i tusindvis af dimensioner. ",
+        "Det sker ud fra den enorme mængde data, modellen har læst og er trænet på. ",
+        "Efter det så kigger den på de ord, der står tidligere i sætningen og så genberegner den relationerne mellem ordene ud fra dem. ",
+        "Det er det, der kaldes **attention**. Det betyder, at et ords betydning afhænger af de ord, der står omkring det. ",
+        "Transformer er altså hele arkitekturen i genberegning af hver tokens vektorer, mens attention er en delmekanisme i transformer."
       ]
     },
     {
