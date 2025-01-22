@@ -45,9 +45,10 @@ function initializeQuestionModule({
             .replace(/>/g, '&gt;'); // Escape >
 
         return escapedText
-            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') // Bold text
-            .replace(/__(.+?)__/g, '<em>$1</em>') // Italic text
-            .replace(/`(.+?)`/g, '<code>$1</code>'); // Inline code
+            .replace(/\n/g, '<br>') // Replace \n with <br>
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') // **Bold text**
+            .replace(/__(.+?)__/g, '<em>$1</em>') // _Italic text_
+            .replace(/`(.+?)`/g, '<code>$1</code>'); // `Inline code`
     }
 
     // Shuffle function
@@ -84,9 +85,9 @@ function initializeQuestionModule({
             const lineElement = document.createElement("span");
             lineElement.innerHTML = formatMarkdown(line); // Render svarets linje
             answerParagraph.appendChild(lineElement);
-            if (index < QA.Answer.length - 1) {
+            /*if (index < QA.Answer.length - 1) {
                 answerParagraph.appendChild(document.createElement("br"));
-            }
+            }*/
         });
         answerDiv.appendChild(answerParagraph);
 

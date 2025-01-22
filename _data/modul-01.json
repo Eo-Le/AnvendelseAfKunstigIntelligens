@@ -2,8 +2,8 @@
     {
       "Question": "1. Hvad er kunstig intelligens?",
       "Answer": [
-        "Kunstig intelligens (KI) er teknologi, der simulerer menneskelig intelligens,",
-        "som at lære, tale, ræsonnere, løse problemer og være kreativ ved hjælp af computere og algoritmer."
+        "Kunstig intelligens (KI) er teknologi, der simulerer menneskelig intelligens, ",
+        "som at `lære`, `tale`, `ræsonnere`, `løse problemer` og `være kreativ` ved hjælp af computere og algoritmer."
       ]
     },
     {
@@ -15,74 +15,82 @@
     {
       "Question": "3. Giv et eksempel på en algoritme",
       "Answer": [
-        "Det klassiske eksempel er en madopskrift.",
-        "Hvis opskriften ikke indeholder alle de nødvendige instruktioner, kommer der ikke en velsmagende ret ud af det.",
+        "Det klassiske eksempel er en madopskrift. ",
+        "Hvis opskriften ikke indeholder alle de nødvendige instruktioner, ",
+        "kommer der ikke en velsmagende ret ud af det. ",
         "Hvis instruktionerne kommer i forkert rækkefølge, bliver opskriften også umulig at følge."
       ]
     },
     {
       "Question": "4. Hvad er Minimax?",
       "Answer": [
-        "Minimax er en algoritme udviklet af John von Neuman i 1926.",
-        "Algoritmen anvendes i skakcomputer og handler om at arbejde sig fremad fra det seneste træk og vælge den bedst mulige position,",
-        "som svar på hver af modstanderens mulige positioner, altså maksimum.",
-        "På næste niveau antager den, at modstanderen vil vælge den dårligst mulige position for en selv, altså minimum.",
-        "Denne udveksling mellem maksimum og minimum har givet navn til algoritmen: Minimax."
+        "**Minimax** er en algoritme udviklet af John von Neuman i 1926. ",
+        "Algoritmen anvendes i skakcomputer og handler om at arbejde sig fremad ",
+        "fra det seneste træk og vælge den bedst mulige position, ",
+        "som svar på hver af modstanderens mulige positioner, altså **maksimum**. ",
+        "På næste niveau antager den, at modstanderen vil vælge den dårligst mulige position for en selv, ",
+        "altså **minimum**.",
+        "\n\nDenne udveksling mellem maksimum og minimum har givet navn til algoritmen: **Minimax**."
       ]
     },
     {
       "Question": "5. Hvad er quiescence-søgning?",
       "Answer": [
-        "Quiescence-søgning er en algortime, som anvendes i skakcomputer, og den indebærer, at maskinen først stopper sin søgning,",
-        "når den når en stabil position, hvor alvorlige ting som ”bonde slår dronning” ikke kan ske."
+        "**Quiescence-søgning** er en algortime, som anvendes i skakcomputer, ",
+        "og den indebærer, at maskinen først stopper sin søgning, ",
+        "når den når en stabil position, hvor alvorlige ting som __bonde slår dronning__ ikke kan ske."
       ]
     },
     {
       "Question": "6. Hvad er alpha-beta-pruning?",
       "Answer": [
-        "Alpha-beta-pruning er en algoritme, som anvendes i skakcomputer.",
-        "”Pruning” betyder beskæring, og hensigten er simpelthen rent virtuelt at skære de uinteressante grene af træet",
-        " – præcis som man skærer de dårlige grene af et frugttræ."
+        "**Alpha-beta-pruning** er en algoritme, som anvendes i skakcomputer. ",
+        "`Pruning` betyder beskæring, og hensigten er simpelthen rent virtuelt at skære ",
+        "de uinteressante grene af træet ",
+        "– præcis som man skærer de dårlige grene af et frugttræ."
       ]
     },
     {
       "Question": "7. Hvad er Stockfish?",
       "Answer": [
-        "Stockfish er en skakcomputer og anvender tre algoritmer som hjørnesten, nemlig ",
-        "- Minimax, quiescence-søgning og alpha-beta-pruning."
+        "**Stockfish** er en skakcomputer og anvender tre algoritmer som hjørnesten, nemlig ",
+        "- __Minimax__, __quiescence-søgning__ og __alpha-beta-pruning__."
       ]
     },
     {
       "Question": "8. Hvad er Deep Thought?",
       "Answer": [
-        "Deep Thought er en skakcomputer udviklet af IBM.",
+        "**Deep Thought** er en skakcomputer udviklet af IBM. ",
         "Deep Thought er videreudviklet fra ChipTest, som er udviklet af Feng-hsiung Hsu."
       ]
     },
     {
       "Question": "9. Hvad er Deep Blue?",
       "Answer": [
-        "Deep Blue er den første skakcomputer, som besejrede den daværende regerende verdensmester i skak Garri Kasparov. ",
-        "Den første uofficiele sejr fandt sted den 10. februar 1996 besejrede. ",
-        "Den officielle sejr med officielle regler for skakturneringer fandt sted den 11. maj 1997."
+        "**Deep Blue** er den første skakcomputer, ",
+        "som besejrede den daværende regerende verdensmester i skak Garri Kasparov. ",
+        "Den første uofficiele sejr fandt sted den __10. februar 1996__ besejrede. ",
+        "Den officielle sejr med officielle regler for skakturneringer fandt sted den __11. maj 1997__."
       ]
     },
     {
       "Question": "10. Hvad er 'von Neumann-arkitektur'?",
       "Answer": [
-        "von Neumann-arkitektur blev designet af John von Neumann, den samme mand som udviklede Minimax algoritmen. ",
+        "**von Neumann-arkitektur** blev designet af John von Neumann, ",
+        "den samme mand som udviklede Minimax algoritmen. ",
         "Arkitekturen bliver stadig anvendt til at konstruere moderne computere efter. ",
         "I denne opbygning, eller arkitektur, har computere én central komponent, som udfører beregninger, ",
         "og en anden komponent, som står for at gemme data. ",
         "Når beregninger skal udføres, skal de nødvendige ingredienser derfor hentes fra hukommelsesenheden, ",
-        "og hvis resultatet af en beregning skal gemmes, skal det flyttes fra beregningsenheden og ind i hukommelsen. ",
-        "Den første von Neumann-maskine stod færdig i 1952"
+        "og hvis resultatet af en beregning skal gemmes, ",
+        "skal det flyttes fra beregningsenheden og ind i hukommelsen. ",
+        "Den første von Neumann-maskine stod færdig i 1952."
       ]
     },
     {
       "Question": "11. Hvem er Grace Hopper?",
       "Answer": [
-        "Grace Hopper var en matematiker som opfandt det første program, ",
+        "**Grace Hopper** var en matematiker som opfandt det første program, ",
         "som gør det muligt for computere at oversætte ord, helt konkret engelske ord, til maskinsprog. ",
         "Før den tid måtte man programmere computere direkte med nuller og ettaller, 0 og 1. ",
         "At skrive nuller og ettaller er ikke nogen særligt morsom opgave for os mennesker, ",
@@ -91,9 +99,9 @@
       ]
     },
     {
-      "Question": "12. Hvem opfandt begrevet 'Artificial Intelligence?",
+      "Question": "12. Hvem opfandt begrebet 'Artificial Intelligence?",
       "Answer": [
-        "Begrebet artificial intelligence (AI) blev opfundet af John McCarthy ",
+        "Begrebet **artificial intelligence (AI)** blev opfundet af John McCarthy ",
         "hovedsageligt for at adskille området fra det beslægtede felt kybernetik."
       ]
     },
@@ -101,37 +109,37 @@
       "Question": "13. Hvad handler kunstig intelligens om?",
       "Answer": [
         "Kunstig intelligens har som formål at skabe maskiner, der efterligner menneskelig adfærd og intelligens. ",
-        "De fire pionerer inden for AI er John McCarthy, Marvin Minsky, Herbert Simon og Allen Newell ",
-        "Disse fire personer har skrevet, at kunstig intelligens omfatter bl.a. ",
-        "logisk tænkning, maskinlæring, neurale netværk, kreativitet og sprogforståelse."
+        "De fire pionerer inden for AI er __John McCarthy__, __Marvin Minsky__, __Herbert Simon__ og __Allen Newell__.",
+        "Disse fire personer har skrevet, atkunstig intelligens omfatter bl.a. ",
+        "`logisk tænkning`, `maskinlæring`, `neurale netværk`, `kreativitet` og `sprogforståelse`."
       ]
     },
     {
       "Question": "14. Hvor mange fremtidige træk kan ChipTest gennemsøge i sekundet?",
       "Answer": [
-        "ChipTest kunne gennemsøge 500.000 fremtidige træk i sekundet."
+        "**ChipTest** kunne gennemsøge `500.000` fremtidige træk i sekundet."
       ]
     },
     {
       "Question": "15. Hvor mange positioner kan Deep Blue gennemsøge i sekundet?",
       "Answer": [
-        "Deep Blue kunne gennemsøge 200 millioner positioner i sekundet."
+        "**Deep Blue** kunne gennemsøge `200 millioner` positioner i sekundet."
       ]
     },
     {
       "Question": "16. Hvad er AlphaZero?",
       "Answer": [ 
-        "AlphaZero er en skakcomputer, som har lært sig selv skak ved at spille mod sig selv ",
+        "**AlphaZero** er en skakcomputer, som har lært sig selv skak ved at spille mod sig selv ",
         "- i alt 44 millioner partier - i løbet af 24 timer. ",
         "Stockfish og andre traditionelle skakcomputere laver i dag millioner af søgninger, ",
         "mens AlphaZero takket være den skakintuition, den har lært sig, ",
-        "kan ”nøjes” med at lave under 100.000 søgninger per stilling."
+        "kan ”nøjes” med at lave under `100.000` søgninger per stilling."
       ]
     },
     {
       "Question": "17. Hvornår blev AlphaZero introduceret?",
       "Answer": [ 
-        "Den 5. december 2017 blev verden introduceret for AlphaZero. ",
+        "__Den 5. december 2017__ blev verden introduceret for AlphaZero. ",
         "Det er en skakcomputer af den mest moderne slags, skabt af et af de ledende miljøer inden for forskning i AI, ",
         "nemlig firmaet DeepMind (som blev opkøbt af Google i 2014)."
       ]
@@ -139,8 +147,8 @@
     {
       "Question": "18. Hvad er Voltaire kendt for?",
       "Answer": [ 
-        "Voltaire er kendt for sætningen: ",
-        "'Definér dine begreber, ellers vil vi aldrig kunne forstå hinanden.'"
+        "**Voltaire** er kendt for sætningen: ",
+        "\n__Definér dine begreber, ellers vil vi aldrig kunne forstå hinanden__.'"
       ]
     }
   ]
