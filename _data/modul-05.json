@@ -26,7 +26,39 @@
       ]
     },
     {
-      "Question": "4. Uddyb hvad ChatGPT er",
+      "Question": "4. Forklar hvad den store sprogmodel er",
+      "Answer": [
+        "Den store sprogmodel er inspireret af måden den menneskelige hjernen virker på, selv om den ikke kan genskabe det fuldstændigt. ",
+        "Den grundlæggende struktur består af punkter og forbindelser. ",
+        "Punkterne i en stor sprogmodel er i bund og grund en hel masse ord. ",
+        "Og formålet med modellen er at kortlægge afstanden mellem ord, så modellen kan forudsige hvilket ord, der er mest sandsynligt i en sætning. ",
+        "De enkelte ord i en sætning bliver opbevaret i modellen som **tokens** .",
+        "Nogle gange bliver dele af et ord som et flertals **s** eller begyndelsen **un** gemt i sin egen token.",
+        "Hver token bliver ikke opfattet som en kombination af bogstaver men som en vektor bestående af en sekvens af tal. ",
+        "Vektorerne fungerer på samme måde som koordinater på et kort. ",
+        "Man repræsenterer ofte placeringen af en by som en vektor bestående af en længdegrad og en bredderad. ",
+        "Den ene angiver afstanden og retningen øst vest for greenwich og den anden angiver på samme måde afstanden til ækvator. ",
+        "Vektorerne fortæller også os noget om sammenhængen mellem de forskellige steder. ",
+        "Tallene som repræsenterer Paris og Orleans er tæt på hinanden, fordi de to steder ligger tæt ved hinanden. ",
+        "Ved hjælp af noget ikke alt for avanceret matematik kan vi få masse af interessante viden ud af disse vektorer. ",
+        "På samme måde placerer vektorer i en sprogmodel de forskellige tokens på deres plads i modellen ",
+        "og vektorerne indeholder oplysninger om, hvor tæt de forskellige tokens er på hinanden. ",
+        "Men i en storsprogmodel bliver afstanden ikke bare angivet med to tal, som man normal gør på et kort. ",
+        "Og heller ikke som 3-dimensioner, som vi er i stand til at opfatte vores omgivelse, men i hundredvise af dimensioner. ",
+        "Eks. kan ordet **glad* indeholder hundredvise af vektorer. ",
+        "Vi ved ikke præcis, hvilke oplysninger de enkelte vektorer angiver, men det kan være ting som **udskiftelighed** - altså om to ord kan stå på samme plads i en sætning. ",
+        "I sådan en vektor vil ordet **glad** og **trist** være tæt på hinanden, selv om de andre vektorer vil være langt fra hinanden. ",
+        "En simpel ordbog på din telefon har til gengæld kun en enkelt dimension, hvilket ord er mest sandsynlige i alle sammenhænge. ",
+        "Selv om det prinvipielt er det samme en stor sprogmodel gør, så gør den det meget bedre og det er der to grunde til: ",
+        " ",
+        "**Transformers** og",
+        "**Attention**",
+        " ",
+        "En transformer er en matematisk proces som genberegner hver tokens vektorer."
+      ]
+    },
+    {
+      "Question": "5. Uddyb hvad ChatGPT er",
       "Answer": [
         "ChatGPT er en **stor sprogmodel** udviklet af OpenAI, baseret på GPT-arkitekturen (**Generative Pre-trained Transformer**), ",
         "der bruger **neural netværk** og transformer-algoritmer til at forstå og generere tekst. ",
