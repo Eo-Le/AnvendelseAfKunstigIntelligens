@@ -124,7 +124,7 @@
     {
       "Question": "7. Kan ChatGPT udvides med flere funktionaliteter?",
       "Answer": [
-        "**Ja** ChatGPT kan udvides med funktionaliteter fra GPT store. ",
+        "**Ja** ChatGPT kan udvides med funktionaliteter fra `GPT store`. ",
         "Alternativ kan man også bygge sin egen GPT `Custom build GPT`."
       ]
     },
@@ -154,7 +154,7 @@
         "så kan det være en god idé at give sprogmodellen et eksempel på, ",
         "hvordan sådan et svar kan se ud. ",
         "\n\n",
-        "*A** står for `Adjustments`. ",
+        "**A** står for `Adjustments`. ",
         "Det er sådan små tilpasninger, du gerne vil have i svaret. ",
         "Det kan være i forhold til tonen i sproget eller opsætning af svaret. ",
         "\n\n",
