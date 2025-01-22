@@ -35,7 +35,20 @@ function initializeQuestionModule({
     const resetButton = document.getElementById(resetButtonId);
     const messageContainer = document.getElementById(messageContainerId);
     let currentQuestionIndex = 0;
-    let isAnswerVisible = false; // Tracks if the current card is showing an answer
+    let isAnswerVisible = false;
+
+    // Escape HTML tags to render them as plain text
+    function formatMarkdown(text) {
+        // Escape special HTML characters
+        const escapedText = text
+            .replace(/</g, '&lt;') // Escape <
+            .replace(/>/g, '&gt;'); // Escape >
+
+        return escapedText
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') // Bold text
+            .replace(/__(.+?)__/g, '<em>$1</em>') // Italic text
+            .replace(/`(.+?)`/g, '<code>$1</code>'); // Inline code
+    }
 
     // Shuffle function
     function shuffleArray(array) {
@@ -55,20 +68,22 @@ function initializeQuestionModule({
         questionDiv.classList.add("question");
         questionDiv.style.display = isAnswerVisible ? "none" : "block";
         const questionHeading = document.createElement("h3");
-        questionHeading.textContent = QA.Question;
+        questionHeading.innerHTML = formatMarkdown(QA.Question); // Render spørgsmålet
         questionDiv.appendChild(questionHeading);
 
         const answerDiv = document.createElement("div");
         answerDiv.classList.add("answer");
         answerDiv.style.display = isAnswerVisible ? "block" : "none";
         const answerHeading = document.createElement("h3");
-        answerHeading.textContent = QA.Question;
+        answerHeading.innerHTML = formatMarkdown(QA.Question); // Render spørgsmålet igen for svaret
         answerDiv.appendChild(answerHeading);
 
         const answerParagraph = document.createElement("p");
         answerParagraph.style.whiteSpace = "pre-wrap"; // Preserve whitespace and line breaks
         QA.Answer.forEach((line, index) => {
-            answerParagraph.appendChild(document.createTextNode(line));
+            const lineElement = document.createElement("span");
+            lineElement.innerHTML = formatMarkdown(line); // Render svarets linje
+            answerParagraph.appendChild(lineElement);
             if (index < QA.Answer.length - 1) {
                 answerParagraph.appendChild(document.createElement("br"));
             }
@@ -96,34 +111,31 @@ function initializeQuestionModule({
         // Add click listener to the "Tilbage" button and its child <i> element
         const backButton = card.querySelector(".card-back");
         backButton.addEventListener("click", function (event) {
-            event.stopPropagation(); // Prevent event from bubbling to the card click listener
+            event.stopPropagation();
             if (isAnswerVisible) {
-                isAnswerVisible = false; // Switch to question
+                isAnswerVisible = false;
             } else if (currentQuestionIndex > 0) {
-                currentQuestionIndex--; // Move to the previous card
-                isAnswerVisible = true; // Show the answer for the previous card
+                currentQuestionIndex--;
+                isAnswerVisible = true;
             }
-            createCard(QAData); // Re-render the card
+            createCard(QAData);
         });
 
         // Add click listener to the main card to flip and move forward
         card.addEventListener("click", function (event) {
             if (event.target.closest(".card-back")) {
-                return; // Ignore clicks on the "Tilbage" button
+                return;
             }
 
             if (isAnswerVisible) {
-                // If currently showing the answer, move to the next question
                 currentQuestionIndex++;
                 if (currentQuestionIndex < QAData.length) {
-                    isAnswerVisible = false; // Show the question for the next card
+                    isAnswerVisible = false;
                     createCard(QAData);
                 } else {
-                    // If no more questions, show final message
                     showFinalMessage();
                 }
             } else {
-                // If currently showing the question, flip to show the answer
                 isAnswerVisible = true;
                 createCard(QAData);
             }
@@ -144,9 +156,9 @@ function initializeQuestionModule({
         console.log("Shuffling questions...");
         const questionDataShuffled = questionData.slice();
         shuffleArray(questionDataShuffled);
-        currentQuestionIndex = 0; // Reset index to start from the first question
-        isAnswerVisible = false; // Start with the question
-        createCard(questionDataShuffled); // Re-render with shuffled data
+        currentQuestionIndex = 0;
+        isAnswerVisible = false;
+        createCard(questionDataShuffled);
         messageContainer.style.display = "none";
         shuffleButton.disabled = true;
         resetButton.disabled = false;
@@ -155,9 +167,9 @@ function initializeQuestionModule({
     // Event listener for the reset button
     resetButton.addEventListener("click", function () {
         console.log("Restarting questions in original order...");
-        currentQuestionIndex = 0; // Reset index to start from the first question
-        isAnswerVisible = false; // Start with the question
-        createCard(questionData); // Re-render with original order
+        currentQuestionIndex = 0;
+        isAnswerVisible = false;
+        createCard(questionData);
         messageContainer.style.display = "none";
         shuffleButton.disabled = false;
         resetButton.disabled = true;
