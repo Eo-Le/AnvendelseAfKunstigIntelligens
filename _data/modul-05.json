@@ -20,13 +20,7 @@
       ]
     },
     {
-      "Question": "3. Er ChatGPT en stor sprogmodel?",
-      "Answer": [
-        "**Ja** ChatGPT er en stor sprogmodel og er trænet på enorme mængde data tilgængelige på internettet."
-      ]
-    },
-    {
-      "Question": "4. Forklar hvad den store sprogmodel er",
+      "Question": "3. Forklar hvad den store sprogmodel er",
       "Answer": [
         "Den store sprogmodel er inspireret af måden den menneskelige hjernen virker på, ",
         "selv om den ikke kan genskabe det fuldstændigt. ",
@@ -85,6 +79,12 @@
       ]
     },
     {
+      "Question": "4. Er ChatGPT en stor sprogmodel?",
+      "Answer": [
+        "**Ja** ChatGPT er en stor sprogmodel og er trænet på enorme mængde data tilgængelige på internettet."
+      ]
+    },
+    {
       "Question": "5. Uddyb hvad ChatGPT er",
       "Answer": [
         "ChatGPT er en **stor sprogmodel** udviklet af OpenAI, ",
@@ -113,6 +113,65 @@
         "der gør det muligt at forstå kontekst i både tekst og kode. ",
         "Disse forskelle gør det muligt for brugere at vælge en model, ",
         "der passer bedst til deres behov og budget."
+      ]
+    },
+    {
+      "Question": "6. Kan ChatGPT søge på nettet?",
+      "Answer": [
+        "**Ja** ChatGPT kan søge på nettet og samtidig inkluder kilden til indholdet."
+      ]
+    },
+    {
+      "Question": "7. Kan ChatGPT udvides med flere funktionaliteter?",
+      "Answer": [
+        "**Ja** ChatGPT kan udvides med funktionaliteter fra GPT store. ",
+        "Alternativ kan man også bygge sin egen GPT `Custom build GPT`."
+      ]
+    },
+    {
+      "Question": "8. Forklar hvad CREATE metoden er?",
+      "Answer": [
+        "Når du skal skrive en prompt til en stor sprog model, ",
+        "så kan du bruge **CREATE** modellen til at sikre, ",
+        "at du kommer omkring alle vigtige dele i din prompt. ",
+        "CREATE er et akronym, der beskriver de 6 dele, ",
+        "der er vigtigt, du har med i din prompt. ",
+        "\n\n",
+        "**C** står for `Character`. ",
+        "Det er her, du fortæller sprogkoden. ",
+        "Hvilken rolle den skal spille. ",
+        "Vil du gerne have den til at være en rådgiver, ",
+        "en ekspert eller måske noget helt andet?",
+        "\n\n",
+        "**R** står for `Request`. ",
+        "Det er her du kommer med selve den opgave, ",
+        "du gerne vil have sprogmodellen til at løse for dig. ",
+        "R er det spørgsmål du gerne vil have svar på. ",
+        "\n\n",
+        "**E** står for `Example`. ",
+        "Hvis du gerne vil have, det svar skal se ud på en bestemt måde ",
+        "eller følge et bestemt format eller bestemt retningslinjer, ",
+        "så kan det være en god idé at give sprogmodellen et eksempel på, ",
+        "hvordan sådan et svar kan se ud. ",
+        "\n\n",
+        "*A** står for `Adjustments`. ",
+        "Det er sådan små tilpasninger, du gerne vil have i svaret. ",
+        "Det kan være i forhold til tonen i sproget eller opsætning af svaret. ",
+        "\n\n",
+        "**T** står for `Type of output`. ",
+        "Hvad er det for en type svar, du gerne vil have? ",
+        "Skal det bruges som teksten i et nyhedsbrev? ",
+        "Skal det være en formel lovtekst? ",
+        "En produktbeskrivelse eller noget helt andet. ",
+        "Det angiver du her. ",
+        "\n\n",
+        "**E** står for `Extras` bare lige for at minde dig om, ",
+        "at hvis der er ekstra oplysninger, som du tænker, ",
+        "det kan være godt for sprogmodellen at vide inden den genererer sit svar, ",
+        "så kan du skrive det her. ",
+        "\n\n",
+        "Når du kommer omkring de 6 dele i CREATE princippet i din prompt, ",
+        "så kan du være sikker på, at du er godt på vej til at have en rigtig super kamp."
       ]
     }
   ]
