@@ -2,25 +2,25 @@
   {
       "Question": "1. Google Translate",
       "Answer": [
-        "1. Google Translate: https://translate.google.com/"
+        "1. **Google Translate**: https://translate.google.com/"
       ]
   },
   {
     "Question": "2. Siri",
     "Answer": [
-      "2. Siri: Eksempelvis sig til Siri 'Siri fortæl mig en joke'"
+      "2. **Siri**: Eksempelvis sig til Siri 'Siri fortæl mig en joke'"
     ]
   },
   {
     "Question": "3. Elevenlabs",
     "Answer": [
-      "3. Elevenlabs: https://elevenlabs.io/"
+      "3. **Elevenlabs**: https://elevenlabs.io/"
     ]
   },
   {
     "Question": "4. Azure Speech Studio",
     "Answer": [
-      "4. Azure Speech Studio: https://speech.microsoft.com/"
+      "4. **Azure Speech Studio**: https://speech.microsoft.com/"
     ]
   }
 ]
