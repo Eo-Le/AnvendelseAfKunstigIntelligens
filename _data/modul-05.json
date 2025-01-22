@@ -129,7 +129,7 @@
       ]
     },
     {
-      "Question": "8. Forklar hvad CREATE metoden er?",
+      "Question": "8. Forklar hvad CREATE-modellen er?",
       "Answer": [
         "Når du skal skrive en prompt til en stor sprog model, ",
         "så kan du bruge **CREATE** modellen til at sikre, ",
