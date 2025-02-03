@@ -1,0 +1,32 @@
+[
+    {
+        "Question": "1. Installation",
+        "Answer": [
+          "Download og installer LM studio: https://lmstudio.ai/"
+        ]
+    },
+    {
+        "Question": "2. Installer sprogmodel",
+        "Answer": [
+          "I søgefeltet (lupen) indtastes den ønskede sprogmodel. ",
+          "Vælg den ønskede version og tryk på download. "
+        ]
+    },
+    {
+        "Question": "3. Eksempler op sprogmodeller",
+        "Answer": [
+          "1. Den danske sprogmodel: **RJuro munin-neuralbeagle-7b-GGUF** \n\n",
+          "2. Mistral generel sprogmodel: **Mistral-7B** "
+        ]
+    },
+    {
+        "Question": "4. Nævn top fem sprogmodeller i LM studio",
+        "Answer": [
+          "1. **Llama 3.2 1B - SLM**: (Med 1 milliard parametre betragtes denne som en lille sprogmodel.)\n\n",
+          "2. **Mistral 7B v0.3 - LLM**: (Med 7 milliarder parametre klassificeres denne som en stor sprogmodel.)\n\n",
+          "3. **Phi 3.1 Mini 128k - LLM**: (Selvom den kaldes Mini, har den 3,8 milliarder parametre, hvilket gør den til en LLM.)\n\n",
+          "4. **DeepSeek R1 Distill (Qwen 7B) - LLM**: (Med 7 milliarder parametre er denne model også en LLM.)\n\n",
+          "5. **Gemma 2 2B - SLM**: (Med 2 milliarder parametre er denne på grænsen mellem SLM og LLM, men kan betragtes som en SLM.)\n\n"
+        ]
+    }
+]
