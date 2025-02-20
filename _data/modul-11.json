@@ -1,0 +1,37 @@
+[
+    {
+        "Question": "1. Forklar med egne ord havd en stor sprogmodel er",
+        "Answer": [
+          "Den store sprogmodel, er en form for AI, som er trænet på enorme mængde data ",
+          "og kan bruges til inspiration, læring, analyse og behandling af tekst og tal, programmering ",
+          "eller hverdagens opgave så som hjælp til en opskrift baserede på resterne i ens køleskab. ",
+          "Den store sprogmodel efterligner måden hjernen fungerer på og anvender transformer/attention ",
+          "til at generere det bedste svar baseret på konteksten. ",
+          "I en stor sprogmodel bliver ord eller dele af ord gemt som tokens, ",
+          "som er en vektor lige som et længde- og breddegrad for angivelse af en placering. ",
+          "Et ord kan indeholde utallige dimensioner af tokens. ",
+          "En token kan eks. repræsentere, om et ord er udskiftelig ",
+          "eller hvor sandsynligt det er, som næste ord i en sætning."
+        ]
+    },
+    {
+      "Question": "2. Forklar med egne ord hvad maskinlæring er",
+      "Answer": [
+        "Maskinlæring går ud på at få maskinen til selv at skrive sin egen algortime. Maskinlæring kan inddeles i tre strukturer: \n\n",
+        "1. Supervised learning\n",
+        "2. Unsupervised learning\n",
+        "3. Reinforcement learning\n\n",
+        "Ved supervised learning bliver maskinen trænet med labeled data. ",
+        "Ved unsupervised learning bliver maskinen trænet med non-labeled data og kan danne grundlag for senere supervised learning. ",
+        "Ved reinforcement learning bliver maskinen belønnet for at gøre noget ønskværdig."
+      ]
+    },
+    {
+      "Question": "3. Forklar med egne ord hvad algoritme er",
+      "Answer": [
+        "Algoritme er en samling instruktioner, som kan udføre i en bestemt rækkefølge for at opnå et bestemt mål. ",
+        "Et eksempel på en hverdags algoritme er en madopskrift, som indeholder en fremgangsmåde, ",
+        "som skal eksekveres i den rigtige rækkefølge for at maden bliver velsmagende."
+      ]
+    }
+  ]
